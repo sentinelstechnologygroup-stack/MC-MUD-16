@@ -1,0 +1,20 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function staff() { return request.auth != null && request.auth.token.districtAdmin == true && request.auth.token.email_verified == true; }
+    function publicCollection(name) { return name in ['Meeting','TaxRate','Consultant','WebsiteContent']; }
+    function valid(name) {
+      let data = request.resource.data;
+      return data.size() < 40 &&
+        (name != 'Meeting' || (data.title is string && data.title.size() > 0 && data.date is string && data.date.matches('^[0-9]{4}-[0-9]{2}-[0-9]{2}$') && data.type in ['regular','special'] && data.status in ['scheduled','completed','cancelled'] && data.time is string && data.location is string)) &&
+        (name != 'Document' || (data.title is string && data.title.size() > 0 && data.file_url is string && data.archived is bool)) &&
+        (!(name in ['WebsiteContent','WebsiteDraft']) || (data.key is string && data.value is string && data.value.size() < 250000));
+    }
+    match /{name}/{id} {
+      allow read: if staff() || publicCollection(name) || (name == 'Document' && resource.data.archived == false);
+      allow create, update: if staff() && name in ['Document','Meeting','TaxRate','Consultant','WebsiteContent','WebsiteDraft'] && valid(name);
+      allow create: if staff() && name == 'ContentChange' && request.resource.data.actor == request.auth.token.email;
+      allow delete: if false;
+    }
+  }
+}

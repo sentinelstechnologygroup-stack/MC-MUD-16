@@ -1,0 +1,10 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /public-documents/{file} {
+      allow read: if true;
+      allow create: if resource == null && request.auth != null && request.auth.token.districtAdmin == true && request.auth.token.email_verified == true && request.resource.size > 0 && request.resource.size <= 20 * 1024 * 1024 && request.resource.contentType == 'application/pdf' && file.matches('.*[.]pdf');
+      allow update, delete: if false;
+    }
+  }
+}

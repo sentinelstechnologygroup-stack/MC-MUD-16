@@ -12,11 +12,11 @@ The public application requires no Base44 credentials or runtime service. `src/d
 
 ## Administration status
 
-The document, meeting and structured page editors are preserved in source. Staff publishing is intentionally locked until replacement authentication, database, permanent upload storage and server permission checks are connected and verified. The public site never simulates successful writes. `src/api/districtClient.js` is the replacement integration boundary; its current implementation supplies public reads and rejects writes/private reads.
+The document, meeting and structured page editors now have a Firebase integration. The dedicated project is `mcmud16-district`; reviewed public records are imported and Firestore rules are deployed. Production remains on its reviewed snapshot until billing/storage, Authentication and approved staff accounts are configured and the full publishing flow is verified. The public site never simulates successful writes. `src/api/districtClient.js` selects Firebase only when its VITE configuration is supplied; otherwise it retains snapshot reads and rejects writes/private reads.
 
 To complete the portal, replace this boundary with authenticated server endpoints using the models in `base44/entities`, migrate IDs and relationships, and retain private drafts and publishing history. Do not place private records or credentials in frontend bundles. The original complete export is saved locally in `migration/private/content-export.json`, excluded from Git and deployment. Archived records and original files are retained there for future backend import.
 
-Until then, public content changes require updating the reviewed snapshot and redeploying. This is a transitional deployment, not completion of the production admin backend.
+Until activation, public content changes require updating the reviewed snapshot and redeploying. Follow [Firebase activation steps](firebase/SETUP.md). Run `npm run test:firebase` for isolated Firestore and PDF-storage permissions tests. No staff claims have been granted without an approved email list. This is a transitional deployment, not completion of the production admin backend.
 
 ## Deployment
 

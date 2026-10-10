@@ -20,6 +20,10 @@ const errorText = error => error?.status === 401 || error?.status === 403 ? "You
 
 export default function StaffPortal() {
   const [access, setAccess] = useState("checking");
+  const [loginEmail, setLoginEmail] = useState("");
+  const [loginPassword, setLoginPassword] = useState("");
+  const [loginBusy, setLoginBusy] = useState(false);
+  const [loginNotice, setLoginNotice] = useState("");
   const [user, setUser] = useState(null);
   const [accessError, setAccessError] = useState("");
   const [docs, setDocs] = useState([]);
@@ -189,7 +193,14 @@ export default function StaffPortal() {
       <p className="mt-4 text-muted-foreground">
         {access === "checking" ? "Checking your account…" : access === "denied" ? "This account does not have administrator access. Ask the district’s website administrator to authorize your account." : access === "error" ? accessError : "Staff publishing is being configured. The public website and district documents are available. Contact the district website administrator for staff access once setup is complete."}
       </p>
-      
+      {district.configured && access === "signed-out" && <form className="mt-6 text-left space-y-4" onSubmit={async event=>{event.preventDefault();setLoginBusy(true);setLoginNotice("");try { const current=await district.auth.loginViaEmailPassword(loginEmail,loginPassword);setUser(current);setAccess("admin");setLoginPassword(""); } catch {setLoginNotice("Sign-in failed. Check your credentials and confirm your verified account has staff access.");} finally {setLoginBusy(false);} }}>
+        <label className="block text-sm font-semibold">Staff email<input type="email" autoComplete="username" required value={loginEmail} onChange={event=>setLoginEmail(event.target.value)} className={inputClass}/></label>
+        <label className="block text-sm font-semibold">Password<input type="password" autoComplete="current-password" required value={loginPassword} onChange={event=>setLoginPassword(event.target.value)} className={inputClass}/></label>
+        <button className={primaryClass} disabled={loginBusy}>Sign in</button>
+        <button type="button" className="ml-4 underline text-sm" disabled={loginBusy || !loginEmail} onClick={async()=>{try {await district.auth.resetPassword(loginEmail);setLoginNotice("If an account exists, password reset instructions will be sent.");} catch {setLoginNotice("Unable to request a reset. Contact your website administrator.");}}}>Reset password</button>
+      </form>}
+      {loginNotice && <p role="status" className="mt-4 text-sm">{loginNotice}</p>}
+      {district.configured && access === "denied" && <button type="button" className="underline mt-4" onClick={async()=>{await district.auth.logout();setAccess("signed-out");setUser(null);}}>Sign out and use another account</button>}
       <Link to="/" className="block mt-5 text-sm text-[#0789a3]">Return to the public website</Link>
     </section>
   );
@@ -200,7 +211,7 @@ export default function StaffPortal() {
         <div><p className="text-xs font-semibold tracking-widest text-[#0789a3] uppercase mb-2">District administration</p><h1 className="font-heading text-4xl text-[#143c58]">Staff portal</h1><p className="text-muted-foreground mt-3">Publish documents in the right place. Keep residents informed.</p></div>
         <div className="flex flex-wrap items-center gap-3">{tab === "documents" && <button type="button" className={primaryClass} disabled={saving || loading} onClick={()=>startDocument()}><Plus className="w-4 h-4" /> Add document</button>}<Link to="/" className={secondaryClass}><ArrowLeft className="w-4 h-4" /> View website</Link><button type="button" className={secondaryClass} disabled={loading || saving} onClick={loadData}><RefreshCw className="w-4 h-4" /> Refresh</button></div>
       </div>
-      <p className="mt-4 text-xs text-muted-foreground">Signed in as {user?.full_name || user?.email} · Administrator</p>
+      <div className="mt-4 flex gap-4 items-center"><p className="text-xs text-muted-foreground">Signed in as {user?.full_name || user?.email} · Administrator</p><button type="button" className="underline text-sm" onClick={async()=>{await district.auth.logout();setAccess("signed-out");setUser(null);}}>Sign out</button></div>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3 my-8">
         {[["Published documents",liveDocs.length],["Meeting agendas",liveDocs.filter(d=>d.category==="agenda").length],["Meeting minutes",liveDocs.filter(d=>d.category==="minutes").length],["Elections",liveDocs.filter(d=>d.category==="election").length]].map(([label,count]) => <div key={label} className="bg-white border border-[#d4e1e4] rounded p-5"><p className="text-sm text-muted-foreground">{label}</p><p className="font-heading text-3xl text-[#143c58] mt-2">{loading ? "—" : count}</p></div>)}
