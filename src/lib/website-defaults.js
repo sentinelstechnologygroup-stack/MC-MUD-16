@@ -83,7 +83,7 @@ export const WEBSITE_DEFAULTS = {
   "home": {
     "intro": "Montgomery County Municipal Utility District #16 is a political subdivision of the State of Texas located in Splendora, Texas. The District provides water, wastewater, and drainage services to residents and businesses within its boundaries and is governed by a five-member Board of Directors.",
     "hero_text": "Serving the residents of Splendora, Texas with reliable water, wastewater, and drainage infrastructure.",
-    "payment_url": "https://regionalwater.net/districts/mcmud16.html"
+    "payment_url": "https://regionalwater.net/"
   },
   "conservation": [
     {
