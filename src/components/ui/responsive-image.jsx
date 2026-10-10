@@ -15,10 +15,7 @@ export const ResponsiveImage = React.forwardRef(
         ref={wrapperRef}
         className={cn("inline-block relative", className)}
         style={{ aspectRatio, ...style }}
-        {...wrapperProps}
-        data-base44-image=""
-        data-base44-image-src={src}
-      >
+        {...wrapperProps}      >
         {/* Contain both image layers inside the padded content box without adding an edit target. */}
         <span data-source-location={undefined} className="block relative w-full h-full overflow-hidden">
           {options && !loaded && (
