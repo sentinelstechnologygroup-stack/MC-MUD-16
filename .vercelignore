@@ -4,3 +4,10 @@ base44/
 *.py
 source-home.html
 node_modules/
+
+dist/
+.env
+.env.*
+.vercel/
+tests/
+
