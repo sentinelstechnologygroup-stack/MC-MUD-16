@@ -97,13 +97,13 @@ export default function SiteLayout() {
         <PageAttachments/>
       </main>
 
-      <footer className="bg-navy text-navy-foreground px-6 lg:px-12 py-12">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1.2fr_1fr_1fr] gap-10">
+      <footer className="bg-navy text-navy-foreground px-6 lg:px-12 pt-10 pb-6">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1.35fr_1.1fr_1.1fr] gap-8 lg:gap-12">
           <div>
             <h3 className="font-heading text-2xl leading-snug max-w-[390px]">
               Montgomery County Municipal Utility District #16
             </h3>
-            <div className="mt-5 text-[#d4e5e9] [&_div]:text-inherit"><DistrictContacts/></div>
+            <div className="mt-5 text-[#d4e5e9] [&_div]:text-inherit [&_div]:space-y-2"><DistrictContacts/></div>
             <a
               href={contacts.facebook}
               target="_blank"
@@ -130,13 +130,14 @@ export default function SiteLayout() {
           <div>
             <p className="text-xs font-semibold tracking-[0.08em] uppercase text-[#71d1d9] mb-4">Public Information</p>
             <p className="text-sm text-[#d4e5e9] leading-relaxed">Public information requests: <a className="underline" href={"mailto:"+contacts.email}>{contacts.email}</a>, or mail to {contacts.mailing}.</p>
+            <div className="mt-6 text-[#d4e5e9] [&>div]:bg-transparent [&>div]:border-white/20 [&>div]:text-inherit [&>div]:p-3 [&_p]:text-xs [&_p]:leading-relaxed"><TaxUpdate/></div>
           </div>
         </div>
-        <nav aria-label="Accessibility and legal notices" className="max-w-7xl mx-auto mt-8 flex flex-wrap gap-x-6 gap-y-3 text-sm text-[#d4e5e9] underline"><Link to="/accessibility">ADA & Accessibility</Link><Link to="/privacy-notice">Privacy Notice</Link><Link to="/terms-of-use">Terms of Use</Link><button type="button" onClick={openPreferences} className="underline text-left">Cookie preferences</button></nav>
-        <div className="max-w-7xl mx-auto mt-10 pt-6 border-t border-white/10 text-xs text-[#a9c4cb] flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+        <div className="max-w-7xl mx-auto mt-8 pt-4 border-t border-white/10 text-xs text-[#a9c4cb] flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
           <p>© {new Date().getFullYear()} Montgomery County Municipal Utility District #16. All Rights Reserved.</p>
-          <div className="flex flex-wrap gap-4"><div className="[&_div]:bg-transparent [&_div]:border-white/20 [&_div]:text-inherit"><TaxUpdate/></div><Link to="/staff-portal" className="underline hover:text-white">Staff portal</Link></div>
+          <Link to="/staff-portal" className="underline hover:text-white shrink-0">Staff portal</Link>
         </div>
+        <nav aria-label="Accessibility and legal notices" className="max-w-7xl mx-auto mt-5 flex flex-wrap justify-center gap-x-6 gap-y-3 text-sm text-[#d4e5e9] underline"><Link to="/accessibility">ADA & Accessibility</Link><Link to="/privacy-notice">Privacy Notice</Link><Link to="/terms-of-use">Terms of Use</Link><button type="button" onClick={openPreferences} className="underline text-left">Cookie preferences</button></nav>
       </footer>
     </div>
   );
