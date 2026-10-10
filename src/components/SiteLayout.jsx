@@ -35,14 +35,15 @@ export default function SiteLayout() {
       </div>
 
       <header className="bg-white border-b border-[#dce7e9] sticky top-0 z-40">
-        <div className="max-w-7xl mx-auto px-5 lg:px-12 flex items-center justify-between gap-6 min-h-[92px] lg:flex-col lg:items-start lg:gap-4 lg:py-5">
+        <div className="max-w-7xl mx-auto px-5 lg:px-12 flex items-center justify-between gap-6 min-h-[80px] lg:flex-wrap lg:gap-x-6 lg:gap-y-3 lg:py-4">
           <Link
             to="/"
-            className="font-heading text-[#133b57] text-base lg:text-[21px] leading-tight max-w-[360px]"
+            className="flex items-center gap-3 text-[#133b57] shrink-0"
+            aria-label="Montgomery County Municipal Utility District 16 home"
           >
-            Montgomery County Municipal Utility District #16
+            <img src="/favicon-32.png" alt="" className="w-8 h-8"/><span className="font-heading text-xl lg:text-2xl">MC MUD 16</span>
           </Link>
-          <nav aria-label="Main navigation" className="hidden lg:flex items-center gap-5">
+          <nav aria-label="Main navigation" className="hidden lg:flex items-center gap-4">
             {NAV.map((n) => (
               <NavLink
                 key={n.to}

@@ -46,7 +46,8 @@ export default function Notice() {
               )}
               {notices.map((n) => (
                 <li key={n.id} className="py-3 flex items-center justify-between gap-3">
-                  <div className="min-w-0">
+                  <img src="/favicon-32.png" alt="" className="w-4 h-4 shrink-0"/>
+                  <div className="min-w-0 flex-1">
                     <p className="font-medium text-foreground">{n.title}</p>
                     {n.date && (
                       <p className="text-xs text-muted-foreground">
@@ -72,7 +73,7 @@ export default function Notice() {
           <h3 className="font-heading text-2xl text-[#143c58] mb-4">
             Water Conservation Tips for Residents
           </h3>
-          <ManagedSections contentKey="conservation"/>
+          <ManagedSections contentKey="conservation" bullets/>
         </div>
       </div>
     </div>

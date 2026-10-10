@@ -14,8 +14,6 @@ import SectionHead from "@/components/SectionHead";
 import { format, parseISO } from "date-fns";
 
 const HERO_IMG = originalPhoto;
-const FEATURE_IMG = originalPhoto;
-const MEETING_IMG = originalPhoto;
 
 const QUICK = [
   { label: "District Information", to: "/district-information" },
@@ -89,13 +87,7 @@ export default function Home() {
 
       <div className="px-5 lg:px-12 pt-20 lg:pt-24 max-w-7xl mx-auto">
         <SectionHead title="District Information" />
-        <div className="grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] gap-8 items-stretch">
-          <img
-            src={FEATURE_IMG}
-            alt="Original district website water infrastructure photograph"
-            className="w-full h-[302px] object-cover rounded-[3px] shadow-lg"
-            
-          />
+        <div className="max-w-4xl">
           <div className="py-4 flex flex-col justify-center">
             <div className="w-12 h-[3px] bg-[#41aabc] mb-6" />
             <p className="text-[17px] leading-[1.7] text-muted-foreground">
@@ -129,13 +121,7 @@ export default function Home() {
       </div>
 
       <section className="mt-16 bg-[#edf4f5] border-y border-[#d5e3e5] px-5 lg:px-12 py-14">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-9 items-center">
-          <img
-            src={MEETING_IMG}
-            alt="Water infrastructure with blue valves"
-            className="w-full h-[250px] object-cover rounded-[3px] shadow-lg"
-            
-          />
+        <div className="max-w-7xl mx-auto">
           <div>
             <SectionHead title="Meetings" />
             <p className="text-base leading-relaxed text-[#476477]">
