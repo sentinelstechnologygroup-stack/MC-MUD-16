@@ -26,6 +26,14 @@ Keep `.env.local`, `.vercel`, private exports and temporary migration material o
 
 ## District review
 
+## Cookies, map and contact delivery
+
+The accept/decline notice stores the visitor's choice for 180 days. Google Maps loads only after acceptance; the footer's Cookie preferences control can withdraw that choice. No optional analytics is enabled. Notice copy and the Google Maps embed URL are structured WebsiteContent fields for the future staff editor.
+
+The original GoDaddy contact form has optional Name, required Email and optional Message fields, with attachments disabled and reCAPTCHA v3 enabled. Its public code submits through GoDaddy's hosted contact service and does not expose the destination mailbox. [GoDaddy's contact-form documentation](https://www.godaddy.com/en-ca/help/use-web-contact-forms-with-godaddy-conversations-41127) describes routing through the Conversations inbox. Jonathan must confirm the actual inbox/notification recipient and who handles replies before replacement delivery is enabled. The public email address alone does not establish that recipient.
+
+Until confirmation, Drop us a line opens the visitor's email app to the published district email. To complete replacement delivery, connect a server-side submission endpoint and email service, configure spam protection and delivery credentials privately, and verify receipt with the approved recipient. Display success only after a confirmed submission. Preserve any existing contact records according to the district's instructions.
+
 The supplied $0.988 figure remains pending supporting paperwork. Board terms and official coordinator/reporting contacts remain unspecified until confirmed. ADA, privacy and terms pages remain draft notices, not adopted district policies or compliance certification.
 
 See [official records request](migration/MCMUD16%20Official%20Records%20Request.md) and [admin model handoff](migration/Admin%20Portal%20Model.md).

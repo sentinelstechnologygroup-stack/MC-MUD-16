@@ -58,7 +58,9 @@ export const WEBSITE_DEFAULTS = {
     "mailing": "c/o Coats Rose, PC, 9 Greenway Plaza, Suite 1000, Houston, TX 77046",
     "facebook": "https://www.facebook.com/1763123883738201",
     "ada_contact": "",
-    "stormwater_contact": ""
+    "stormwater_contact": "",
+    "show_map": true,
+    "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3448.2083140594955!2d-95.17194052444016!3d30.202601374844345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864750e406c1ac65%3A0xdd3264b949b9a654!2sWhite%20Oak%20Ln%2C%20Texas%2077372!5e0!3m2!1sen!2sus!4v1791659628438!5m2!1sen!2sus"
   },
   "tax_update": {
     "total": "0.988",
@@ -202,5 +204,9 @@ export const WEBSITE_DEFAULTS = {
         "body": "Ordinary email and website browsing are not emergency reporting channels. Call 911 for an immediate threat to life or safety. Use the legally required method for any formal notice; these terms do not alter a legally valid public-information request or any other statutory notice procedure.\n\nQuestions about a record or website error may be directed to the district’s general contact above. Public information requests may be sent to ggomez@coatsrose.com (mailto:ggomez@coatsrose.com) or the district’s published mailing address."
       }
     ]
+  },
+  "cookie_notice": {
+    "title": "This website uses cookies.",
+    "body": "We remember your privacy choice using an essential cookie. Google Maps may use cookies and process device information. Accept to allow the embedded map, or decline to keep it off. No optional analytics is currently enabled."
   }
 };

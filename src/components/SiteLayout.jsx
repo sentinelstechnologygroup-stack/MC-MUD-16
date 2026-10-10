@@ -4,6 +4,7 @@ import { DistrictContacts, PublicAlert, TaxUpdate } from "@/components/ManagedCo
 import { useEffect, useState } from "react";
 import { Link, NavLink, Outlet, useLocation } from "react-router-dom";
 import { Menu, X, Facebook } from "lucide-react";
+import { useCookieConsent } from "@/components/CookieConsent";
 
 const NAV = [
   { label: "Home", to: "/" },
@@ -17,6 +18,7 @@ const NAV = [
 ];
 
 export default function SiteLayout() {
+  const { openPreferences } = useCookieConsent();
   const contacts=useWebsiteContent("contacts");
   const [open, setOpen] = useState(false);
   const location = useLocation();
@@ -130,7 +132,7 @@ export default function SiteLayout() {
             <p className="text-sm text-[#d4e5e9] leading-relaxed">Public information requests: <a className="underline" href={"mailto:"+contacts.email}>{contacts.email}</a>, or mail to {contacts.mailing}.</p>
           </div>
         </div>
-        <nav aria-label="Accessibility and legal notices" className="max-w-7xl mx-auto mt-8 flex flex-wrap gap-x-6 gap-y-3 text-sm text-[#d4e5e9] underline"><Link to="/accessibility">ADA & Accessibility</Link><Link to="/privacy-notice">Privacy Notice</Link><Link to="/terms-of-use">Terms of Use</Link></nav>
+        <nav aria-label="Accessibility and legal notices" className="max-w-7xl mx-auto mt-8 flex flex-wrap gap-x-6 gap-y-3 text-sm text-[#d4e5e9] underline"><Link to="/accessibility">ADA & Accessibility</Link><Link to="/privacy-notice">Privacy Notice</Link><Link to="/terms-of-use">Terms of Use</Link><button type="button" onClick={openPreferences} className="underline text-left">Cookie preferences</button></nav>
         <div className="max-w-7xl mx-auto mt-10 pt-6 border-t border-white/10 text-xs text-[#a9c4cb] flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
           <p>© {new Date().getFullYear()} Montgomery County Municipal Utility District #16. All Rights Reserved.</p>
           <div className="flex flex-wrap gap-4"><div className="[&_div]:bg-transparent [&_div]:border-white/20 [&_div]:text-inherit"><TaxUpdate/></div><Link to="/staff-portal" className="underline hover:text-white">Staff portal</Link></div>

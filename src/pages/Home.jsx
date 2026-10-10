@@ -1,4 +1,5 @@
 import { useWebsiteContent } from "@/lib/website-content";
+import DistrictMap from "@/components/DistrictMap";
 import { DistrictContacts } from "@/components/ManagedContent";
 import { publicDocuments } from "@/lib/document-sections";
 import DocumentList from "@/components/DocumentList";
@@ -30,6 +31,7 @@ const LINKS = [
 ];
 
 export default function Home() {
+  const contacts=useWebsiteContent("contacts");
   const home=useWebsiteContent("home");
   const schedule=useWebsiteContent("meeting_schedule");
   const newsletter=useWebsiteContent("newsletter");
@@ -179,9 +181,10 @@ export default function Home() {
         <p className="text-muted-foreground mb-4">District rate order, election deadline notices, and the Notice to Purchaser needed for real estate sales.</p>
         <DocumentList documents={residentDocs} loading={false} />
         <div className="grid md:grid-cols-2 gap-10 mt-14">
-          <div><SectionHead title="Contact Us"/><DistrictContacts/></div>
+          <div><SectionHead title="Contact Us"/><DistrictContacts/><a href={"mailto:"+contacts.email} className="inline-flex rounded bg-[#143c58] text-white px-5 py-3 mt-6 font-semibold text-sm">Drop us a line<span className="sr-only"> — opens your email app</span></a><p className="text-sm text-muted-foreground mt-3">Email the district using your email app, or call the number above.</p></div>
           {newsletter.enabled&&newsletter.signup_url&&<div><SectionHead title="Subscribe"/><a className="underline text-[#0c617b]" href={newsletter.signup_url}>Sign up for district email updates</a></div>}
         </div>
+        <DistrictMap/>
       </section>
     </div>
   );

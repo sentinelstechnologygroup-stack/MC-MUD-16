@@ -19,6 +19,7 @@ import StormwaterManagement from '@/pages/StormwaterManagement';
 import Accessibility from '@/pages/Accessibility';
 import PrivacyNotice from '@/pages/PrivacyNotice';
 import TermsOfUse from '@/pages/TermsOfUse';
+import { CookieConsentProvider } from '@/components/CookieConsent';
 
 const AuthenticatedApp = () => {
   const { isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
@@ -72,8 +73,10 @@ function App() {
     <AuthProvider>
       <QueryClientProvider client={queryClientInstance}>
         <Router>
+          <CookieConsentProvider>
           <ScrollToTop />
           <AuthenticatedApp />
+          </CookieConsentProvider>
         </Router>
         <Toaster />
       </QueryClientProvider>
