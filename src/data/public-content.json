@@ -1,0 +1,1051 @@
+{
+  "Document": [
+    {
+      "title": "MS4 General Permit — Authorization",
+      "category": "stormwater",
+      "date": "2025-12-12",
+      "file_url": "/stormwater/ms4-permit.pdf",
+      "archived": false,
+      "description": "2 pages. TCEQ authorization TXR040649; coverage effective December 12, 2025. Permit authorizations expire August 14, 2029 unless otherwise amended.",
+      "seed_key": "permit",
+      "meeting_id": "",
+      "effective_date": null,
+      "adoption_date": null,
+      "supersedes_id": "",
+      "page_path": "",
+      "id": "6aca64d70f2ad1434a5ec6c3",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "election",
+      "description": "Texas Secretary of State form linked on the original site.",
+      "file_url": "/migrated/adde0fcda8fc3c5d.pdf",
+      "date": null,
+      "title": "Declaration of Write-in Candidacy",
+      "id": "6ac5540ac2fd61d4c11b896b",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "election",
+      "description": "Texas Secretary of State form linked on the original site.",
+      "file_url": "/migrated/6ccfa80c19c55db9.pdf",
+      "date": null,
+      "title": "Application for a Place on the Ballot",
+      "id": "6ac5540ac2fd61d4c11b896a",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "agenda",
+      "description": null,
+      "file_url": "/migrated/49d90a7f3faca74b.pdf",
+      "date": "2026-02-10",
+      "title": "MC MUD 16 Supplemental Agenda - 2-10-26",
+      "id": "6ac5530f0f5e2510a3efb574",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "agenda",
+      "description": null,
+      "file_url": "/migrated/97f5a967a54143a8.pdf",
+      "date": "2026-02-23",
+      "title": "Special Agenda for February 23, 2026",
+      "id": "6ac5530f0f5e2510a3efb575",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "agenda",
+      "description": null,
+      "file_url": "/migrated/a50b8fa07e7d75e5.pdf",
+      "date": "2026-03-10",
+      "title": "MC MUD 16 Supplemental Agenda - March 10, 2026",
+      "id": "6ac5530f0f5e2510a3efb576",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "agenda",
+      "description": null,
+      "file_url": "/migrated/79e2953a7db22360.pdf",
+      "date": "2026-03-10",
+      "title": "Agenda for March 10, 2026",
+      "id": "6ac5530f0f5e2510a3efb577",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "agenda",
+      "description": null,
+      "file_url": "/migrated/83a22138301c8fc9.pdf",
+      "date": "2026-03-21",
+      "title": "Special Agenda for March 21, 2026",
+      "id": "6ac5530f0f5e2510a3efb578",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "agenda",
+      "description": null,
+      "file_url": "/migrated/353146e87c0f89cc.pdf",
+      "date": "2026-04-14",
+      "title": "Agenda for April 14, 2026",
+      "id": "6ac5530f0f5e2510a3efb579",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "agenda",
+      "description": null,
+      "file_url": "/migrated/ffd3b6e6b6ec5c5c.pdf",
+      "date": "2026-05-05",
+      "title": "Special Agenda for May 5, 2026",
+      "id": "6ac5530f0f5e2510a3efb57a",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "agenda",
+      "description": null,
+      "file_url": "/migrated/b59c92b16e2e92ff.pdf",
+      "date": "2026-05-12",
+      "title": "Agenda for May 12, 2026",
+      "id": "6ac5530f0f5e2510a3efb57b",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "agenda",
+      "description": null,
+      "file_url": "/migrated/38f6037f80d816d8.pdf",
+      "date": "2026-06-09",
+      "title": "Agenda for June 9, 2026",
+      "id": "6ac5530f0f5e2510a3efb57c",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "agenda",
+      "description": null,
+      "file_url": "/migrated/ed7de6935bc9ba14.pdf",
+      "date": "2026-07-07",
+      "title": "Special Agenda for July 7, 2026",
+      "id": "6ac5530f0f5e2510a3efb57d",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "agenda",
+      "description": null,
+      "file_url": "/migrated/9b11d04101683422.pdf",
+      "date": "2026-07-14",
+      "title": "Agenda for July 14, 2026",
+      "id": "6ac5530f0f5e2510a3efb57e",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "agenda",
+      "description": null,
+      "file_url": "/migrated/db447fd27026e2a4.pdf",
+      "date": "2026-08-11",
+      "title": "Agenda for August 11, 2026",
+      "id": "6ac5530f0f5e2510a3efb57f",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "other",
+      "description": null,
+      "file_url": "/migrated/ccaf7558a63e3b30.pdf",
+      "date": "2026-08-11",
+      "title": "Taxpayer Impact Statement - August 11, 2026",
+      "id": "6ac5530f0f5e2510a3efb580",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "agenda",
+      "description": null,
+      "file_url": "/migrated/c3371cb03933f67c.pdf",
+      "date": "2026-08-26",
+      "title": "Agenda for August 26, 2026",
+      "id": "6ac5530f0f5e2510a3efb581",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "agenda",
+      "description": null,
+      "file_url": "/migrated/c443e9fdd673d172.pdf",
+      "date": "2026-09-08",
+      "title": "Agenda for September 8, 2026",
+      "id": "6ac5530f0f5e2510a3efb582",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "minutes",
+      "description": null,
+      "file_url": "/migrated/f0e5687374010743.pdf",
+      "date": "2025-02-11",
+      "title": "Minutes - February 11, 2025",
+      "id": "6ac5530f0f5e2510a3efb583",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "minutes",
+      "description": null,
+      "file_url": "/migrated/253f91e331655e6e.pdf",
+      "date": "2025-03-09",
+      "title": "Minutes - Special Meeting - March 9, 2025",
+      "id": "6ac5530f0f5e2510a3efb584",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "minutes",
+      "description": null,
+      "file_url": "/migrated/2398dcf2202afdbc.pdf",
+      "date": "2025-03-11",
+      "title": "Minutes - March 11, 2025",
+      "id": "6ac5530f0f5e2510a3efb585",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "minutes",
+      "description": null,
+      "file_url": "/migrated/8d1be00ff76ccdaa.pdf",
+      "date": "2025-04-08",
+      "title": "Minutes - April 8, 2025",
+      "id": "6ac5530f0f5e2510a3efb586",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "minutes",
+      "description": null,
+      "file_url": "/migrated/c9b842dd56141af6.pdf",
+      "date": "2025-05-13",
+      "title": "Minutes - May 13, 2025",
+      "id": "6ac5530f0f5e2510a3efb587",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "minutes",
+      "description": null,
+      "file_url": "/migrated/9e984d2a5c5a5eed.pdf",
+      "date": "2025-06-10",
+      "title": "Minutes - June 10, 2025",
+      "id": "6ac5530f0f5e2510a3efb588",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "minutes",
+      "description": null,
+      "file_url": "/migrated/6fe8138aa4c6b5b0.pdf",
+      "date": "2025-07-08",
+      "title": "Minutes - July 8, 2025",
+      "id": "6ac5530f0f5e2510a3efb589",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "minutes",
+      "description": null,
+      "file_url": "/migrated/44c66084ca6132ae.pdf",
+      "date": "2025-08-12",
+      "title": "Minutes - August 12, 2025",
+      "id": "6ac5530f0f5e2510a3efb58a",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "minutes",
+      "description": null,
+      "file_url": "/migrated/861bc96322dcd104.pdf",
+      "date": "2025-09-09",
+      "title": "Minutes - September 9, 2025",
+      "id": "6ac5530f0f5e2510a3efb58b",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "minutes",
+      "description": null,
+      "file_url": "/migrated/c0e57098ea0b31db.pdf",
+      "date": "2025-10-14",
+      "title": "Minutes - October 14, 2025",
+      "id": "6ac5530f0f5e2510a3efb58c",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "minutes",
+      "description": null,
+      "file_url": "/migrated/232f0c01afd18e87.pdf",
+      "date": "2025-11-11",
+      "title": "Minutes - November 11, 2025",
+      "id": "6ac5530f0f5e2510a3efb58d",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "minutes",
+      "description": null,
+      "file_url": "/migrated/6a036127f5081f50.pdf",
+      "date": "2025-12-09",
+      "title": "Minutes - December 9, 2025",
+      "id": "6ac5530f0f5e2510a3efb58e",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "minutes",
+      "description": null,
+      "file_url": "/migrated/486a69f08b08f177.pdf",
+      "date": "2026-01-13",
+      "title": "Minutes - January 13, 2026",
+      "id": "6ac5530f0f5e2510a3efb58f",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "minutes",
+      "description": null,
+      "file_url": "/migrated/55a69a5477417ff6.pdf",
+      "date": "2026-02-10",
+      "title": "Minutes - February 10, 2026",
+      "id": "6ac5530f0f5e2510a3efb590",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "minutes",
+      "description": null,
+      "file_url": "/migrated/ab9f6257af4ff3a7.pdf",
+      "date": "2026-02-23",
+      "title": "Minutes - Special Meeting - February 23, 2026",
+      "id": "6ac5530f0f5e2510a3efb591",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "budget",
+      "description": null,
+      "file_url": "/migrated/e78c8cc25d9706d0.pdf",
+      "date": "2025-09-30",
+      "title": "Approved Budget - September 30, 2025",
+      "id": "6ac5530f0f5e2510a3efb592",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "budget",
+      "description": null,
+      "file_url": "/migrated/d9aa340404bd9bbc.pdf",
+      "date": "2024-09-30",
+      "title": "Approved Budget - September 30, 2024",
+      "id": "6ac5530f0f5e2510a3efb593",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "budget",
+      "description": null,
+      "file_url": "/migrated/7a2274d918e5e6d6.pdf",
+      "date": "2021-09-30",
+      "title": "Approved Budget - September 30, 2021",
+      "id": "6ac5530f0f5e2510a3efb594",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "budget",
+      "description": null,
+      "file_url": "/migrated/28861b3d9ada986b.pdf",
+      "date": "2020-09-30",
+      "title": "Approved Budget - September 30, 2020",
+      "id": "6ac5530f0f5e2510a3efb595",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "budget",
+      "description": null,
+      "file_url": "/migrated/9523a234a3fa53a5.pdf",
+      "date": "2019-09-30",
+      "title": "Approved Budget - September 30, 2019",
+      "id": "6ac5530f0f5e2510a3efb596",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "financial_report",
+      "description": null,
+      "file_url": "/migrated/fe793d9b4a550251.pdf",
+      "date": "2025-09-30",
+      "title": "Financial Report - 2025",
+      "id": "6ac5530f0f5e2510a3efb597",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "financial_report",
+      "description": null,
+      "file_url": "/migrated/f24380cbd16da83e.pdf",
+      "date": "2024-09-30",
+      "title": "Financial Report - 2024",
+      "id": "6ac5530f0f5e2510a3efb598",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "financial_report",
+      "description": null,
+      "file_url": "/migrated/7fce7399eece2eeb.pdf",
+      "date": "2023-09-30",
+      "title": "Financial Report - 2023",
+      "id": "6ac5530f0f5e2510a3efb599",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "financial_report",
+      "description": null,
+      "file_url": "/migrated/b6749a555fb72926.pdf",
+      "date": "2022-09-30",
+      "title": "Financial Report - 2022",
+      "id": "6ac5530f0f5e2510a3efb59a",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "tax_hearing",
+      "description": null,
+      "file_url": "/migrated/2316ec147e29a9c8.pdf",
+      "date": "2024-10-08",
+      "title": "Notice of Tax Hearing - October 8, 2024",
+      "id": "6ac5530f0f5e2510a3efb59b",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "election",
+      "description": null,
+      "file_url": "/migrated/fea2222c943e1aca.pdf",
+      "date": "2020-11-03",
+      "title": "Order Calling Bond Election - November 2020",
+      "id": "6ac5530f0f5e2510a3efb59c",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "election",
+      "description": null,
+      "file_url": "/migrated/3f6dec189b2eba13.pdf",
+      "date": "2020-11-03",
+      "title": "Notice of Bond Election - November 2020",
+      "id": "6ac5530f0f5e2510a3efb59d",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "election",
+      "description": null,
+      "file_url": "/migrated/b1cdcaa028d897d4.pdf",
+      "date": null,
+      "title": "Virtual Town Hall Meeting Information",
+      "id": "6ac5530f0f5e2510a3efb59e",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "election",
+      "description": null,
+      "file_url": "/migrated/d161d3d476776704.pdf",
+      "date": null,
+      "title": "Town Hall Handout",
+      "id": "6ac5530f0f5e2510a3efb59f",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "election",
+      "description": null,
+      "file_url": "/migrated/546ad9dacf3b4c26.pdf",
+      "date": "2020-11-03",
+      "title": "Exhibit B - November 3, 2020 (Revised)",
+      "id": "6ac5530f0f5e2510a3efb5a0",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "election",
+      "description": null,
+      "file_url": "/migrated/beba9b3846ab2e95.pdf",
+      "date": "2020-11-03",
+      "title": "Exhibit A - November 3, 2020 (Revised)",
+      "id": "6ac5530f0f5e2510a3efb5a1",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "election",
+      "description": null,
+      "file_url": "/migrated/f4fcd5a4266cb4bb.pdf",
+      "date": "2020-11-03",
+      "title": "Order Calling Directors Election - November 2020",
+      "id": "6ac5530f0f5e2510a3efb5a2",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "election",
+      "description": null,
+      "file_url": "/migrated/222cf62dd06bd5d0.pdf",
+      "date": "2020-11-03",
+      "title": "Notice of Directors Election - November 3, 2020",
+      "id": "6ac5530f0f5e2510a3efb5a3",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "notice",
+      "description": null,
+      "file_url": "/migrated/96ecd6ed4548e349.pdf",
+      "date": null,
+      "title": "Notice of Deadline - 2026 Directors Election",
+      "id": "6ac5530f0f5e2510a3efb5a4",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "notice",
+      "description": "Document needed for real estate sales",
+      "file_url": "/migrated/572268f38693fbc4.pdf",
+      "date": "2023-10-17",
+      "title": "Notice to Purchaser of Special Taxing or Assessment District",
+      "id": "6ac5530f0f5e2510a3efb5a5",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "notice",
+      "description": null,
+      "file_url": "/migrated/149a3b8d3314ff26.pdf",
+      "date": null,
+      "title": "Notice Regarding Extreme Weather Emergencies (SB3)",
+      "id": "6ac5530f0f5e2510a3efb5a6",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "rate_order",
+      "description": null,
+      "file_url": "/migrated/d4e1323b94b9321c.pdf",
+      "date": "2021-08-10",
+      "title": "Rate Order - August 10, 2021",
+      "id": "6ac5530f0f5e2510a3efb5a7",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "notice",
+      "description": null,
+      "file_url": "/migrated/5c408200219c73a9.pdf",
+      "date": null,
+      "title": "MCUD 16 - SB3 Notice",
+      "id": "6ac5530f0f5e2510a3efb5a8",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "category": "other",
+      "description": null,
+      "file_url": "/migrated/a52bd4bb154ce1ee.pdf",
+      "date": null,
+      "title": "Amendment to Information Form - Recorded",
+      "id": "6ac5530f0f5e2510a3efb5a9",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    }
+  ],
+  "Meeting": [
+    {
+      "type": "regular",
+      "status": "completed",
+      "agenda_url": null,
+      "notes": "Historical meeting date preserved from published minutes. Consult the minutes for time and location.",
+      "time": "See minutes",
+      "location": "See minutes",
+      "title": "Regular Meeting",
+      "date": "2025-02-11",
+      "id": "6ac5540ba7af8c67aa52a66f",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "type": "special",
+      "status": "completed",
+      "agenda_url": null,
+      "notes": "Historical meeting date preserved from published minutes. Consult the minutes for time and location.",
+      "time": "See minutes",
+      "location": "See minutes",
+      "title": "Special Meeting",
+      "date": "2025-03-09",
+      "id": "6ac5540ba7af8c67aa52a670",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "type": "regular",
+      "status": "completed",
+      "agenda_url": null,
+      "notes": "Historical meeting date preserved from published minutes. Consult the minutes for time and location.",
+      "time": "See minutes",
+      "location": "See minutes",
+      "title": "Regular Meeting",
+      "date": "2025-03-11",
+      "id": "6ac5540ba7af8c67aa52a671",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "type": "regular",
+      "status": "completed",
+      "agenda_url": null,
+      "notes": "Historical meeting date preserved from published minutes. Consult the minutes for time and location.",
+      "time": "See minutes",
+      "location": "See minutes",
+      "title": "Regular Meeting",
+      "date": "2025-04-08",
+      "id": "6ac5540ba7af8c67aa52a672",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "type": "regular",
+      "status": "completed",
+      "agenda_url": null,
+      "notes": "Historical meeting date preserved from published minutes. Consult the minutes for time and location.",
+      "time": "See minutes",
+      "location": "See minutes",
+      "title": "Regular Meeting",
+      "date": "2025-05-13",
+      "id": "6ac5540ba7af8c67aa52a673",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "type": "regular",
+      "status": "completed",
+      "agenda_url": null,
+      "notes": "Historical meeting date preserved from published minutes. Consult the minutes for time and location.",
+      "time": "See minutes",
+      "location": "See minutes",
+      "title": "Regular Meeting",
+      "date": "2025-06-10",
+      "id": "6ac5540ba7af8c67aa52a674",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "type": "regular",
+      "status": "completed",
+      "agenda_url": null,
+      "notes": "Historical meeting date preserved from published minutes. Consult the minutes for time and location.",
+      "time": "See minutes",
+      "location": "See minutes",
+      "title": "Regular Meeting",
+      "date": "2025-07-08",
+      "id": "6ac5540ba7af8c67aa52a675",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "type": "regular",
+      "status": "completed",
+      "agenda_url": null,
+      "notes": "Historical meeting date preserved from published minutes. Consult the minutes for time and location.",
+      "time": "See minutes",
+      "location": "See minutes",
+      "title": "Regular Meeting",
+      "date": "2025-08-12",
+      "id": "6ac5540ba7af8c67aa52a676",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "type": "regular",
+      "status": "completed",
+      "agenda_url": null,
+      "notes": "Historical meeting date preserved from published minutes. Consult the minutes for time and location.",
+      "time": "See minutes",
+      "location": "See minutes",
+      "title": "Regular Meeting",
+      "date": "2025-09-09",
+      "id": "6ac5540ba7af8c67aa52a677",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "type": "regular",
+      "status": "completed",
+      "agenda_url": null,
+      "notes": "Historical meeting date preserved from published minutes. Consult the minutes for time and location.",
+      "time": "See minutes",
+      "location": "See minutes",
+      "title": "Regular Meeting",
+      "date": "2025-10-14",
+      "id": "6ac5540ba7af8c67aa52a678",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "type": "regular",
+      "status": "completed",
+      "agenda_url": null,
+      "notes": "Historical meeting date preserved from published minutes. Consult the minutes for time and location.",
+      "time": "See minutes",
+      "location": "See minutes",
+      "title": "Regular Meeting",
+      "date": "2025-11-11",
+      "id": "6ac5540ba7af8c67aa52a679",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "type": "regular",
+      "status": "completed",
+      "agenda_url": null,
+      "notes": "Historical meeting date preserved from published minutes. Consult the minutes for time and location.",
+      "time": "See minutes",
+      "location": "See minutes",
+      "title": "Regular Meeting",
+      "date": "2025-12-09",
+      "id": "6ac5540ba7af8c67aa52a67a",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "type": "regular",
+      "status": "completed",
+      "agenda_url": null,
+      "notes": "Historical meeting date preserved from published minutes. Consult the minutes for time and location.",
+      "time": "See minutes",
+      "location": "See minutes",
+      "title": "Regular Meeting",
+      "date": "2026-01-13",
+      "id": "6ac5540ba7af8c67aa52a67b",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "type": "regular",
+      "status": "completed",
+      "agenda_url": "/migrated/49d90a7f3faca74b.pdf",
+      "notes": null,
+      "time": "7:00 p.m.",
+      "location": "25374 Dogwood Ln, Splendora, TX 77372",
+      "title": "Regular Meeting",
+      "date": "2026-02-10",
+      "id": "6ac5530f0f5e2510a3efb5aa",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "type": "special",
+      "status": "completed",
+      "agenda_url": "/migrated/97f5a967a54143a8.pdf",
+      "notes": null,
+      "time": "7:00 p.m.",
+      "location": "25374 Dogwood Ln, Splendora, TX 77372",
+      "title": "Special Meeting",
+      "date": "2026-02-23",
+      "id": "6ac5530f0f5e2510a3efb5ab",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "type": "regular",
+      "status": "completed",
+      "agenda_url": "/migrated/79e2953a7db22360.pdf",
+      "notes": null,
+      "time": "7:00 p.m.",
+      "location": "25374 Dogwood Ln, Splendora, TX 77372",
+      "title": "Regular Meeting",
+      "date": "2026-03-10",
+      "id": "6ac5530f0f5e2510a3efb5ac",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "type": "special",
+      "status": "completed",
+      "agenda_url": "/migrated/83a22138301c8fc9.pdf",
+      "notes": null,
+      "time": "7:00 p.m.",
+      "location": "25374 Dogwood Ln, Splendora, TX 77372",
+      "title": "Special Meeting",
+      "date": "2026-03-21",
+      "id": "6ac5530f0f5e2510a3efb5ad",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "type": "regular",
+      "status": "completed",
+      "agenda_url": "/migrated/353146e87c0f89cc.pdf",
+      "notes": null,
+      "time": "7:00 p.m.",
+      "location": "25374 Dogwood Ln, Splendora, TX 77372",
+      "title": "Regular Meeting",
+      "date": "2026-04-14",
+      "id": "6ac5530f0f5e2510a3efb5ae",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "type": "special",
+      "status": "completed",
+      "agenda_url": "/migrated/ffd3b6e6b6ec5c5c.pdf",
+      "notes": null,
+      "time": "7:00 p.m.",
+      "location": "25374 Dogwood Ln, Splendora, TX 77372",
+      "title": "Special Meeting",
+      "date": "2026-05-05",
+      "id": "6ac5530f0f5e2510a3efb5af",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "type": "regular",
+      "status": "completed",
+      "agenda_url": "/migrated/b59c92b16e2e92ff.pdf",
+      "notes": null,
+      "time": "7:00 p.m.",
+      "location": "25374 Dogwood Ln, Splendora, TX 77372",
+      "title": "Regular Meeting",
+      "date": "2026-05-12",
+      "id": "6ac5530f0f5e2510a3efb5b0",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "type": "regular",
+      "status": "completed",
+      "agenda_url": "/migrated/38f6037f80d816d8.pdf",
+      "notes": null,
+      "time": "7:00 p.m.",
+      "location": "25374 Dogwood Ln, Splendora, TX 77372",
+      "title": "Regular Meeting",
+      "date": "2026-06-09",
+      "id": "6ac5530f0f5e2510a3efb5b1",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "type": "special",
+      "status": "completed",
+      "agenda_url": "/migrated/ed7de6935bc9ba14.pdf",
+      "notes": null,
+      "time": "7:00 p.m.",
+      "location": "25374 Dogwood Ln, Splendora, TX 77372",
+      "title": "Special Meeting",
+      "date": "2026-07-07",
+      "id": "6ac5530f0f5e2510a3efb5b2",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "type": "regular",
+      "status": "completed",
+      "agenda_url": "/migrated/9b11d04101683422.pdf",
+      "notes": null,
+      "time": "7:00 p.m.",
+      "location": "25374 Dogwood Ln, Splendora, TX 77372",
+      "title": "Regular Meeting",
+      "date": "2026-07-14",
+      "id": "6ac5530f0f5e2510a3efb5b3",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "type": "regular",
+      "status": "completed",
+      "agenda_url": "/migrated/db447fd27026e2a4.pdf",
+      "notes": null,
+      "time": "7:00 p.m.",
+      "location": "25374 Dogwood Ln, Splendora, TX 77372",
+      "title": "Regular Meeting",
+      "date": "2026-08-11",
+      "id": "6ac5530f0f5e2510a3efb5b4",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "type": "regular",
+      "status": "completed",
+      "agenda_url": "/migrated/c3371cb03933f67c.pdf",
+      "notes": null,
+      "time": "7:00 p.m.",
+      "location": "25374 Dogwood Ln, Splendora, TX 77372",
+      "title": "Regular Meeting",
+      "date": "2026-08-26",
+      "id": "6ac5530f0f5e2510a3efb5b5",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "type": "regular",
+      "status": "scheduled",
+      "agenda_url": "/migrated/c443e9fdd673d172.pdf",
+      "notes": "Meeting will not be held via teleconference. See Agenda for more details.",
+      "time": "7:00 p.m.",
+      "location": "25374 Dogwood Ln, Splendora, TX 77372",
+      "title": "Regular Meeting",
+      "date": "2026-09-08",
+      "id": "6ac5530f0f5e2510a3efb5b6",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    }
+  ],
+  "TaxRate": [
+    {
+      "year": 2025,
+      "total": 0.924,
+      "maintenance_operations": null,
+      "debt_service": null,
+      "current": true,
+      "id": "6ac5530f0f5e2510a3efb5c3",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "year": 2024,
+      "total": 0.91,
+      "maintenance_operations": 0.695,
+      "debt_service": 0.215,
+      "current": false,
+      "id": "6ac5530f0f5e2510a3efb5c4",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "year": 2022,
+      "total": 0.934,
+      "maintenance_operations": 0.644,
+      "debt_service": 0.29,
+      "current": false,
+      "id": "6ac5530f0f5e2510a3efb5c5",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "year": 2021,
+      "total": 0.96,
+      "maintenance_operations": 0.67,
+      "debt_service": 0.29,
+      "current": false,
+      "id": "6ac5530f0f5e2510a3efb5c6",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "year": 2020,
+      "total": 0.96,
+      "maintenance_operations": 0.67,
+      "debt_service": 0.29,
+      "current": false,
+      "id": "6ac5530f0f5e2510a3efb5c7",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "year": 2019,
+      "total": 0.96,
+      "maintenance_operations": 0.67,
+      "debt_service": 0.29,
+      "current": false,
+      "id": "6ac5530f0f5e2510a3efb5c8",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    }
+  ],
+  "Consultant": [
+    {
+      "address": "2040 North Loop 336 West, Suite 201, Conroe, TX 77304",
+      "order": 5,
+      "role": "Delinquent Tax Attorney",
+      "email": null,
+      "contact_name": null,
+      "company": "J. Steven Weisinger",
+      "phone": "(936) 539-2233",
+      "website": null,
+      "id": "6ac5530f0f5e2510a3efb5c0",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "address": "10515 Rodgers Road, Houston, TX 77070",
+      "order": 3,
+      "role": "Engineer",
+      "email": "mwadam@bleylengineering.com",
+      "contact_name": "Mark W. Adam, P.E.",
+      "company": "Bleyl Engineering",
+      "phone": "(936) 271-9602",
+      "website": null,
+      "id": "6ac5530f0f5e2510a3efb5be",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "address": "P.O. Box 170, Tomball, TX 77377",
+      "order": 2,
+      "role": "Bookkeeper",
+      "email": null,
+      "contact_name": null,
+      "company": "L & S District Services, LLC",
+      "phone": "(281) 356-7542",
+      "website": null,
+      "id": "6ac5530f0f5e2510a3efb5bd",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "address": "P.O. Box 1368, Friendswood, TX 77549",
+      "order": 6,
+      "role": "Tax Assessor/Collector",
+      "email": null,
+      "contact_name": null,
+      "company": "Assessments of the South West Inc.",
+      "phone": "(281) 482-0216",
+      "website": "http://www.aswtax.com/",
+      "id": "6ac5530f0f5e2510a3efb5c1",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "address": "2040 North Loop 336 West, Suite 201, Conroe, TX 77304",
+      "order": 7,
+      "role": "Manager",
+      "email": null,
+      "contact_name": null,
+      "company": "Larry Currey",
+      "phone": "(936) 441-1316",
+      "website": null,
+      "id": "6ac5530f0f5e2510a3efb5c2",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "address": "13300 Schroeder Rd., Houston, TX 77070",
+      "order": 4,
+      "role": "Operator",
+      "email": null,
+      "contact_name": null,
+      "company": "Regional Water Corporation",
+      "phone": "(281) 897-9100",
+      "website": "http://www.regionalwater.net/districts/mcmud16.html",
+      "id": "6ac5530f0f5e2510a3efb5bf",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "address": "9 Greenway Plaza, Suite 1000, Houston, TX 77046",
+      "order": 1,
+      "role": "Attorney",
+      "email": null,
+      "contact_name": null,
+      "company": "Coats Rose, PC",
+      "phone": "(713) 651-0111",
+      "website": null,
+      "id": "6ac5530f0f5e2510a3efb5bc",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    }
+  ],
+  "WebsiteContent": [
+    {
+      "key": "tax_update",
+      "value": "{\"total\":\"0.988\",\"year\":\"\",\"effective_date\":\"\",\"status\":\"pending\",\"source_document\":\"\",\"note\":\"Rate supplied for the website update. Tax year, effective date and adopted order are pending confirmation.\"}",
+      "summary": "Tax rate update",
+      "id": "6aca63f98f36e5a0462128c9",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "key": "board_members",
+      "value": "[{\"name\":\"Fred Paris\",\"role\":\"President\",\"term_expires\":\"\",\"public_contact\":\"\",\"vacant\":false,\"service_basis\":\"Not specified\",\"service_start\":\"\",\"source_document\":\"\"},{\"name\":\"Tomas Enix\",\"role\":\"Vice-President\",\"term_expires\":\"\",\"public_contact\":\"\",\"vacant\":false,\"service_basis\":\"Not specified\",\"service_start\":\"\",\"source_document\":\"\"},{\"name\":\"Dustin Van Dyne\",\"role\":\"Secretary\",\"term_expires\":\"\",\"public_contact\":\"\",\"vacant\":false,\"service_basis\":\"Not specified\",\"service_start\":\"\",\"source_document\":\"\"},{\"name\":\"Kathy McDonald\",\"role\":\"Assistant Secretary\",\"term_expires\":\"\",\"public_contact\":\"\",\"vacant\":false,\"service_basis\":\"Not specified\",\"service_start\":\"\",\"source_document\":\"\"},{\"name\":\"Jim McNamara\",\"role\":\"Assistant Secretary\",\"term_expires\":\"\",\"public_contact\":\"\",\"vacant\":false,\"service_basis\":\"Not specified\",\"service_start\":\"\",\"source_document\":\"\"}]",
+      "summary": "Board members",
+      "id": "6aca63df27b69f6eeb4ba1c1",
+      "created_by_id": "6ac5521c49be3e071a6fbb1e"
+    },
+    {
+      "id": "content-contacts",
+      "key": "contacts",
+      "value": "{\"phone\":\"(713) 651-0111\",\"email\":\"ggomez@coatsrose.com\",\"address\":\"White Oak Lane, Splendora, Texas 77372\",\"mailing\":\"c/o Coats Rose, PC, 9 Greenway Plaza, Suite 1000, Houston, TX 77046\",\"facebook\":\"https://www.facebook.com/1763123883738201\",\"ada_contact\":\"\",\"stormwater_contact\":\"\"}"
+    },
+    {
+      "id": "content-meeting_schedule",
+      "key": "meeting_schedule",
+      "value": "{\"description\":\"Refer to each posted meeting notice for the confirmed date, time and location.\",\"show_recurring\":false}"
+    },
+    {
+      "id": "content-alert",
+      "key": "alert",
+      "value": "{\"enabled\":false,\"title\":\"\",\"body\":\"\",\"expires\":\"\"}"
+    },
+    {
+      "id": "content-home",
+      "key": "home",
+      "value": "{\"intro\":\"Montgomery County Municipal Utility District #16 is a political subdivision of the State of Texas located in Splendora, Texas. The District provides water, wastewater, and drainage services to residents and businesses within its boundaries and is governed by a five-member Board of Directors.\",\"hero_text\":\"Serving the residents of Splendora, Texas with reliable water, wastewater, and drainage infrastructure.\",\"payment_url\":\"https://regionalwater.net/districts/mcmud16.html\"}"
+    },
+    {
+      "id": "content-conservation",
+      "key": "conservation",
+      "value": "[{\"heading\":\"For Every Room in the House With Plumbing\",\"body\":\"Repair leaky faucets, indoors and out.\\nConsider replacing old equipment (like toilets, dishwahers and laundry machines).\"},{\"heading\":\"In the Kitchen\",\"body\":\"When cooking, peel and clean vegetables in a large bowl of water instead of under running water.\\nFill your sink or basin when washing and rinsing dishes.\\nOnly run the dishwasher when it's full.\\nWhen buying a dishwasher, select one with a \\\"light-wash\\\" option.\\nOnly use the garbage disposal when necessary (composting is a great alternative).\\nInstall faucet aerators.\"},{\"heading\":\"In the Bathroom\",\"body\":\"Take short showers instead of baths.\\nTurn off the water to brush teeth, shave and soap up in the shower. Fill the sink to shave.\\nRepair leaky toilets. Add 12 drops of food coloring into the tank, and if color appears in the bowl one hour later, your toilet is leaking.\\nInstall a toilet dam, faucet aerators and low-flow showerheads.\"},{\"heading\":\"Laundry\",\"body\":\"Run full loads of laundry.\\nWhen purchasing a new washing machine, buy a water saving model that can be adjusted to the load size.\"},{\"heading\":\"Outdoors\",\"body\":\"Maximize the use of natural vegetation and establish smaller lawns. For portions of your lot where a lawn and landscaping are desired, ask your local nursery for tips about plants and grasses with low water demand (such as creeping fescue). Consider planting more trees, shrubs, ground covers, and less grass. Shrubs and ground covers provide greenery for much of the year and usually demand less water. Use native plants in flower beds. Choose native plants suited to local conditions. Cluster plants that require extra care together to minimize time and save water.\\nWhen mowing your lawn, set the mower blades to 2-3 inches high. Longer grass shades the soil improving moisture retention, has more leaf surface to take in sunlight, allowing it to grow thicker and develop a deeper root system. This helps grass survive drought, tolerate insect damage and fend off disease.\\nOnly water the lawn when necessary. If you water your lawn and garden, only do it once a week, if rainfall isn't sufficient. Avoid watering on windy and hot days. Water the lawn and garden in the morning or late in the evening to maximize the amount of water which reaches the plant roots (otherwise most of the water will evaporate). Use soaker hoses to water gardens and flower beds. If sprinklers are used, take care to be sure they don't water walkways and buildings. When you water, put down no more than 1 inch (set out a empty cans to determine how long it takes to water 1 inch) each week. This watering pattern will encourage more healthy, deep grass roots. Over-watering is wasteful, encourages fungal growth and disease, and results in the growth of shallow, compacted root systems that are more susceptible to drought and foot traffic. If an automatic lawn irrigation system is used, be sure it has been properly installed, is programmed to deliver the appropriate amount and rate of water, and has rain shut-off capability.\\nApply mulch around shrubs and flower beds to reduce evaporation, promote plant growth and control weeds.\\nAdd compost or an organic matter to soil as necessary, to improve soil conditions and water retention.\\nCollect rainfall for irrigation in a screened container (to prevent mosquito larvae growth).\\nWhen washing a car, wet it quickly, then use a bucket of water to wash the car. Turn on the hose to final rinse (or let mother nature wash your car when it rains).\\nAlways use a broom to clean walkways, driveways, decks and porches, rather than hosing off these areas.\"}]"
+    },
+    {
+      "id": "content-budget_summary",
+      "key": "budget_summary",
+      "value": "{\"body\":\"Refer to the adopted budget documents above for revenue, expenses and tax allocations for each fiscal year. Historical budgets remain available for reference.\"}"
+    },
+    {
+      "id": "content-stormwater_text",
+      "key": "stormwater_text",
+      "value": "{\"intro\":\"Clean water starts where the rain falls. Learn about MUD 16’s stormwater program, explore the district’s documents, and find simple ways to reduce pollution at home.\",\"runoff\":\"Rain that does not soak into the ground flows across roofs, streets and yards. It can carry litter, sediment, oil, pet waste and lawn chemicals into storm drains and nearby waterways.\",\"receiving_water\":\"MUD 16’s Storm Water Management Plan identifies Peach Creek in the San Jacinto River Basin as the district’s receiving water. Preventing pollution at its source helps protect the water downstream.\",\"program\":\"The January 2025 plan addresses public education and participation, illicit discharge detection, construction runoff, post-construction management, and pollution prevention in district operations.\"}"
+    },
+    {
+      "id": "content-newsletter",
+      "key": "newsletter",
+      "value": "{\"enabled\":false,\"signup_url\":\"\"}"
+    },
+    {
+      "id": "content-accessibility",
+      "key": "accessibility",
+      "value": "{\"title\":\"ADA & Accessibility Notice\",\"draft\":true,\"effective_date\":\"\",\"sections\":[{\"heading\":\"Equal access to district services\",\"body\":\"Montgomery County Municipal Utility District No. 16 is subject to Title II of the Americans with Disabilities Act. Qualified individuals with disabilities are entitled to equal access to the district’s programs, services and activities, including information provided online.\\n\\nThe ADA prohibits disability discrimination in public services and employment. It requires effective communication and reasonable modifications when needed for equal access, subject to the limitations established by law.\"},{\"heading\":\"Communication assistance and reasonable modifications\",\"body\":\"If you need an accessible version of a document, an auxiliary aid or service, or a reasonable modification to participate in a district activity, contact the district as early as practical. Describe the document or activity, the barrier you encountered, the assistance requested, and how you prefer to be contacted. You do not need to send medical records to explain a website access problem.\"},{\"heading\":\"Website and document accessibility\",\"body\":\"The website is being designed for keyboard access, clear structure, readable text and meaningful links, using WCAG 2.1 Level AA as the accessibility target. This statement is not a certification that every page or document conforms.\\n\\nSome original PDF records, scanned documents and detailed maps may present access barriers. If a file is difficult to use, provide its title or web address and the format you need so the district can address the request. A text summary does not replace the original official record.\"},{\"heading\":\"ADA protections and concerns\",\"body\":\"Required aids, services and reasonable modifications must be provided without a surcharge to the person requesting them. Requests are subject to the ADA’s rules concerning fundamental alterations and undue financial or administrative burdens. An inability to provide one requested method does not remove the obligation to consider other effective ways to provide access.\\n\\nTo raise an accessibility concern, contact the district using the general contact above and ask for the appropriate ADA review or grievance process. This notice does not limit rights or remedies under applicable law.\\n\\nU.S. Department of Justice: ADA Title II information (opens in a new tab) (https://www.ada.gov/topics/title-ii/)\"}]}"
+    },
+    {
+      "id": "content-privacy",
+      "key": "privacy",
+      "value": "{\"title\":\"Privacy Notice\",\"draft\":true,\"effective_date\":\"\",\"sections\":[{\"heading\":\"Scope of this notice\",\"body\":\"This notice describes the district website and its staff document portal. Public pages and district documents can be viewed without a staff account. External services linked from this website operate under their own privacy notices.\"},{\"heading\":\"Information you provide\",\"body\":\"When you contact the district by email, telephone or mail, your message may include your name, contact information and details needed to respond to your inquiry. Provide only what is necessary. Do not send passwords, payment details, Social Security numbers or sensitive medical information through ordinary email.\\n\\nAuthorized staff use an account to manage public documents and meeting information. Staff authentication and uploading are not enabled in this deployment. Those services and their data practices must be documented before the portal opens. Documents published through the portal are publicly accessible; staff should review files for confidential information before publishing.\"},{\"heading\":\"Technical information and browser storage\",\"body\":\"The hosting and authentication services may process technical information such as IP address, browser and device details, request times, visited pages and error logs to deliver the website, maintain sessions and protect the service. Cookies or browser storage may support authentication and website operation. Browser settings can restrict storage, but doing so may affect sign-in or other functionality.\\n\\nNo separate district analytics service has been added to this redesign. Hosting-provider practices are described in Vercel’s privacy policy (opens in a new tab) (https://vercel.com/legal/privacy-policy). The final hosting and tracking configuration must be confirmed before this draft is adopted.\"},{\"heading\":\"Use, disclosure and public records\",\"body\":\"Information provided to the district is used to respond to requests, administer district services, maintain records and address security or operational issues. Service providers may process information needed to perform those functions.\\n\\nCommunications and records held by the district may be subject to the Texas Public Information Act. Information may be disclosed as required by law, while information made confidential by law must be protected. Sending information to the district does not create a guarantee of confidentiality.\\n\\nTexas Attorney General: Public Information Act overview (opens in a new tab) (https://www.texasattorneygeneral.gov/open-government/members-public/overview-public-information-act)\"},{\"heading\":\"Retention and requests\",\"body\":\"District records are retained in accordance with applicable records-retention requirements and legal obligations. Removing a document from the public website does not necessarily delete the underlying record. Requests to correct information or address privacy concerns are evaluated subject to those obligations; deletion cannot be promised where retention is required.\\n\\nFor public information requests, use the district’s published request channel: ggomez@coatsrose.com (mailto:ggomez@coatsrose.com), or mail your request to the district at the address above.\"},{\"heading\":\"Links and updates\",\"body\":\"Following a link to a payment provider, social network or other external website takes you to a service with separate data practices. Review its notice before providing information. This notice should be updated when website features, providers or information practices change.\"}]}"
+    },
+    {
+      "id": "content-terms",
+      "key": "terms",
+      "value": "{\"title\":\"Terms of Use\",\"draft\":true,\"effective_date\":\"\",\"sections\":[{\"heading\":\"Public information service\",\"body\":\"This website provides information about Montgomery County Municipal Utility District No. 16 for residents and the public. These terms describe appropriate website use; they do not replace applicable law or adopted district policies.\"},{\"heading\":\"Official records and current information\",\"body\":\"Documents speak as of their stated dates. Historical budgets, notices, maps and meeting records are preserved for reference and may not describe current conditions. Refer to the applicable adopted order, posted meeting notice or other official record for authoritative details. If information on a page conflicts with an official record, contact the district for clarification.\\n\\nThe website is maintained as a public resource, but errors, omissions and interruptions may occur. Do not rely on a reference map for excavation, property boundaries or utility locating. Obtain appropriate verification before taking action.\"},{\"heading\":\"Financial information\",\"body\":\"Website financial information is provided for public transparency. It is not an offer to buy or sell securities or a substitute for official securities disclosures. Investment decisions should be based on the applicable offering documents and authorized continuing disclosures.\"},{\"heading\":\"External links and source materials\",\"body\":\"Links to outside services and educational resources are provided for convenience. The district does not control their content, availability or privacy practices. A link does not imply endorsement of a private provider. Third-party materials retain their applicable ownership and usage conditions.\"},{\"heading\":\"Responsible use and staff access\",\"body\":\"Do not disrupt the website, introduce malicious software, bypass access controls or attempt to access another person’s account. Staff portal access is limited to authorized users. Staff must publish only materials appropriate for public release and follow district records and security requirements.\\n\\nPublic access to information is not conditioned on waiving statutory rights. Nothing in these terms limits rights under the Texas Public Information Act, the ADA or other applicable law.\"},{\"heading\":\"Communications and emergencies\",\"body\":\"Ordinary email and website browsing are not emergency reporting channels. Call 911 for an immediate threat to life or safety. Use the legally required method for any formal notice; these terms do not alter a legally valid public-information request or any other statutory notice procedure.\\n\\nQuestions about a record or website error may be directed to the district’s general contact above. Public information requests may be sent to ggomez@coatsrose.com (mailto:ggomez@coatsrose.com) or the district’s published mailing address.\"}]}"
+    }
+  ]
+}

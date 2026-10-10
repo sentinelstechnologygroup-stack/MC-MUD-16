@@ -1,0 +1,49 @@
+{
+  "name": "TaxRate",
+  "type": "object",
+  "properties": {
+    "year": {
+      "type": "number",
+      "title": "Year"
+    },
+    "total": {
+      "type": "number",
+      "title": "Total Rate (per $100)"
+    },
+    "maintenance_operations": {
+      "type": "number",
+      "title": "Maintenance & Operations"
+    },
+    "debt_service": {
+      "type": "number",
+      "title": "Debt Service"
+    },
+    "current": {
+      "type": "boolean",
+      "title": "Current Year",
+      "default": false
+    }
+  },
+  "required": [
+    "year",
+    "total"
+  ],
+  "rls": {
+    "read": {},
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}

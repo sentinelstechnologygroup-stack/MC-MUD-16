@@ -1,0 +1,60 @@
+{
+  "name": "Consultant",
+  "type": "object",
+  "properties": {
+    "role": {
+      "type": "string",
+      "title": "Role"
+    },
+    "company": {
+      "type": "string",
+      "title": "Company"
+    },
+    "contact_name": {
+      "type": "string",
+      "title": "Contact Name"
+    },
+    "address": {
+      "type": "string",
+      "title": "Address"
+    },
+    "phone": {
+      "type": "string",
+      "title": "Phone"
+    },
+    "email": {
+      "type": "string",
+      "title": "Email"
+    },
+    "website": {
+      "type": "string",
+      "title": "Website"
+    },
+    "order": {
+      "type": "number",
+      "title": "Display Order"
+    }
+  },
+  "required": [
+    "role",
+    "company"
+  ],
+  "rls": {
+    "read": {},
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}

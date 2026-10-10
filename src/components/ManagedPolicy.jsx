@@ -1,0 +1,4 @@
+import PolicyPage,{DistrictContact} from "@/components/PolicyPage";
+import { useWebsiteContent } from "@/lib/website-content";
+function Text({text}){return text.split(/(https?:\/\/[^\s)]+|mailto:[^\s)]+)/g).map((s,i)=>/^(https?:|mailto:)/.test(s)?<a key={i} href={s} target={s.startsWith("http")?"_blank":undefined} rel="noreferrer">{s}</a>:s);}
+export default function ManagedPolicy({contentKey}){const p=useWebsiteContent(contentKey);const contacts=useWebsiteContent("contacts");return <PolicyPage title={p.title} notice={p.draft?"Draft for district review. This notice has not yet been adopted by the district.":"Effective "+p.effective_date}>{p.sections.map((s,i)=><section key={i}><h2>{s.heading}</h2><p className="whitespace-pre-line"><Text text={s.body}/></p></section>)}<section><h2>District contact</h2>{contentKey==="accessibility"&&contacts.ada_contact&&<p>Accessibility contact: {contacts.ada_contact}</p>}<DistrictContact/></section></PolicyPage>;}

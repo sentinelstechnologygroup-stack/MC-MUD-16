@@ -1,0 +1,75 @@
+{
+  "name": "Meeting",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "title": "Title"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "title": "Date"
+    },
+    "time": {
+      "type": "string",
+      "title": "Time",
+      "default": "7:00 p.m."
+    },
+    "type": {
+      "type": "string",
+      "title": "Type",
+      "enum": [
+        "regular",
+        "special"
+      ],
+      "default": "regular"
+    },
+    "status": {
+      "type": "string",
+      "title": "Status",
+      "enum": [
+        "scheduled",
+        "completed",
+        "cancelled"
+      ],
+      "default": "scheduled"
+    },
+    "agenda_url": {
+      "type": "string",
+      "title": "Agenda URL"
+    },
+    "location": {
+      "type": "string",
+      "title": "Location",
+      "default": "25374 Dogwood Ln, Splendora, TX 77372"
+    },
+    "notes": {
+      "type": "string",
+      "title": "Notes"
+    }
+  },
+  "required": [
+    "title",
+    "date",
+    "type"
+  ],
+  "rls": {
+    "read": {},
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "original": "MC MUD16 MS4 General Permit.pdf",
+    "path": "/stormwater/ms4-permit.pdf",
+    "bytes": 513785,
+    "sha256": "01786b4b1dc107d6fee3a8daa75875c4df16d4e6ff81465502aad7e003b783d7"
+  },
+  {
+    "original": "OVERALL MC MUD 16 UTILITIES MAP-Layout1.pdf",
+    "path": "/stormwater/utilities-map.pdf",
+    "bytes": 733226,
+    "sha256": "e39188642e11bb73aa5819698060581d2d4fc14fb3b17ba2e6a6eae8278f2322"
+  },
+  {
+    "original": "Stormwater Smart Brochure_Know What Happens_September 2022.pdf",
+    "path": "/stormwater/know-what-happens.pdf",
+    "bytes": 1222010,
+    "sha256": "08901a24b281ae8382eb29e89bd45342a9859d8c190dcc1f31ab403f03c43ce7"
+  },
+  {
+    "original": "Stormwater Smart Brochure_Suburban Steps_September 2022.pdf",
+    "path": "/stormwater/suburban-steps.pdf",
+    "bytes": 1041937,
+    "sha256": "b1382f775dcee9baa0cd635557e92fa25f41a22b4b0606f0567ab42a5765741b"
+  },
+  {
+    "original": "SWMP MUD 16 2024 Final.pdf",
+    "path": "/stormwater/stormwater-management-plan.pdf",
+    "bytes": 675461,
+    "sha256": "8ef413f2bc69807997a259821c0e59d9de71402baa2d6106e83a9483bedf4516"
+  }
+]

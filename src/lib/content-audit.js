@@ -1,0 +1,2 @@
+import { district } from "@/api/districtClient";
+export async function recordChange(key,before,after,summary){try{const user=await district.auth.me();await district.entities.ContentChange.create({actor:user.email||user.full_name||user.id,key,value:JSON.stringify({before,after}),summary});return true;}catch{console.warn('The content change was saved, but publishing history could not be recorded.');return false;}}

@@ -1,0 +1,12 @@
+import fs from 'node:fs';
+import { WEBSITE_DEFAULTS } from '../src/lib/website-defaults.js';
+import { migratedAsset } from '../src/lib/migrated-assets.js';
+const raw=JSON.parse(fs.readFileSync('migration/private/content-export.json','utf8'));
+const strip=r=>Object.fromEntries(Object.entries(r).filter(([k])=>!['created_by','created_date','updated_date','is_sample'].includes(k)));
+const out={};
+for(const key of ['Document','Meeting','TaxRate','Consultant','WebsiteContent']) out[key]=raw[key].filter(r=>!r.archived&&!r.is_sample).map(r=>{const n=strip(r);for(const k of ['file_url','agenda_url']) if(n[k])n[k]=migratedAsset(n[k]);return n;});
+for(const [key,value] of Object.entries(WEBSITE_DEFAULTS)) if(!out.WebsiteContent.some(r=>r.key===key))out.WebsiteContent.push({id:'content-'+key,key,value:JSON.stringify(key==='tax_history'?out.TaxRate:key==='consultants'?out.Consultant:value)});
+const policy=out.WebsiteContent.find(r=>r.key==='privacy');const p=JSON.parse(policy.value);
+p.sections=p.sections.map(s=>({...s,body:s.body.replace('Account information and uploaded files are processed through the website’s Base44 service.','Staff authentication and uploading are not enabled in this deployment. Those services and their data practices must be documented before the portal opens.').replace('Hosting-provider practices are described in Base44’s privacy policy (opens in a new tab) (https://base44.com/privacy-policy).','Hosting-provider practices are described in Vercel’s privacy policy (opens in a new tab) (https://vercel.com/legal/privacy-policy).')}));policy.value=JSON.stringify(p);
+fs.mkdirSync('src/data',{recursive:true});fs.writeFileSync('src/data/public-content.json',JSON.stringify(out,null,2)+'\n');
+console.log(Object.fromEntries(Object.entries(out).map(([k,v])=>[k,v.length])));

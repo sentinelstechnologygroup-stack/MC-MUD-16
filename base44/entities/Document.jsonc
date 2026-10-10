@@ -1,0 +1,88 @@
+{
+  "name": "Document",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "title": "Title"
+    },
+    "category": {
+      "type": "string",
+      "title": "Category",
+      "enum": [
+        "agenda",
+        "minutes",
+        "budget",
+        "financial_report",
+        "tax_hearing",
+        "election",
+        "notice",
+        "rate_order",
+        "other",
+        "stormwater",
+        "page_attachment"
+      ]
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "title": "Document Date"
+    },
+    "file_url": {
+      "type": "string",
+      "title": "File URL"
+    },
+    "archived": {
+      "type": "boolean",
+      "title": "Removed from website",
+      "default": false
+    },
+    "description": {
+      "type": "string",
+      "title": "Description"
+    },
+    "seed_key": {
+      "type": "string"
+    },
+    "meeting_id": {
+      "type": "string"
+    },
+    "effective_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "adoption_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "supersedes_id": {
+      "type": "string"
+    },
+    "page_path": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "title",
+    "category",
+    "file_url"
+  ],
+  "rls": {
+    "read": {},
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}

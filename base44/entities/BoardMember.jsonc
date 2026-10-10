@@ -1,0 +1,49 @@
+{
+  "name": "BoardMember",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "title": "Name"
+    },
+    "role": {
+      "type": "string",
+      "title": "Role"
+    },
+    "term_expires": {
+      "type": "string",
+      "title": "Term Expires"
+    },
+    "order": {
+      "type": "number",
+      "title": "Display Order"
+    },
+    "vacant": {
+      "type": "boolean",
+      "title": "Vacant",
+      "default": false
+    }
+  },
+  "required": [
+    "name",
+    "role"
+  ],
+  "rls": {
+    "read": {},
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}
