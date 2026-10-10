@@ -84,3 +84,8 @@ Contacts, consultants, tax history, alerts, meeting instructions, home copy/paym
 Build and lint pass. Browser verification confirmed private draft saving, board publication and current roster rendering, missing-evidence tax validation, permit editing with five stormwater records remaining, all 11 page destinations and public stormwater links. Real-file upload through the picker and production authorization remain to be verified with the final backend.
 
 Migration instructions and staff workflow: migration/Admin Portal Model.md. The live domain is unchanged; this app remains an unpublished prototype.
+
+## Favicon and payment link review — October 10, 2026
+
+The current mcmud16.com homepage was checked and includes PAY YOUR BILL under About Us, linking to Regional Water's MCMUD16 page. The existing external payment link is retained under the owner's stated condition. No payment processing integration has been added. The generated transparent water-droplet favicon replaces the number 16 browser icon, with 16/32 pixel PNGs, multi-size ICO and an Apple touch icon.
+

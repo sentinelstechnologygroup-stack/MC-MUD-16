@@ -9,6 +9,25 @@ import { district } from '../src/api/districtClient.js';
 const data = JSON.parse(fs.readFileSync('src/data/public-content.json', 'utf8'));
 const content = key => JSON.parse(data.WebsiteContent.find(row => row.key === key).value);
 
+test('favicon assets have browser sizes and remain outside the SPA fallback', () => {
+  const html = fs.readFileSync('index.html', 'utf8');
+  const config = JSON.parse(fs.readFileSync('vercel.json', 'utf8').replace(/^\uFEFF/, ''));
+  const fallback = new RegExp('^' + config.rewrites[0].source + '$');
+  for (const size of [16, 32, 180]) {
+    const path = `/favicon-${size}.png`;
+    const png = fs.readFileSync('public' + path);
+    assert.equal(png.readUInt32BE(16), size);
+    assert.equal(png.readUInt32BE(20), size);
+    assert.ok(html.includes(path));
+    assert.equal(fallback.test(path), false);
+  }
+  const ico = fs.readFileSync('public/favicon.ico');
+  assert.equal(ico.readUInt16LE(2), 1);
+  assert.equal(ico.readUInt16LE(4), 6);
+  assert.equal(fallback.test('/favicon.ico'), false);
+  assert.equal(fallback.test('/stormwater-management'), true);
+});
+
 test('public page queries work and private reads and staff writes are rejected', async () => {
   const elections = await district.entities.Document.filter({ $or: [{ category: 'election' }, { title: 'Notice of Deadline - 2026 Directors Election' }], archived: { $ne: true } }, '-date', 100);
   assert.equal(elections.length, 11);

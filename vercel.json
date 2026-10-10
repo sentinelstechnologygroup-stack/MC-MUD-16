@@ -5,7 +5,7 @@
   "outputDirectory": "dist",
   "rewrites": [
     {
-      "source": "/((?!assets/|migrated/|stormwater/|favicon.svg).*)",
+      "source": "/((?!assets/|migrated/|stormwater/|favicon[^/]*[.](?:svg|png|ico)$).*)",
       "destination": "/index.html"
     }
   ],
@@ -29,3 +29,4 @@
     }
   ]
 }
+
