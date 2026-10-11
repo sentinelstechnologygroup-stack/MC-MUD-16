@@ -12,7 +12,7 @@ const content = key => JSON.parse(data.WebsiteContent.find(row => row.key === ke
 test('favicon assets have browser sizes and remain outside the SPA fallback', () => {
   const html = fs.readFileSync('index.html', 'utf8');
   const config = JSON.parse(fs.readFileSync('vercel.json', 'utf8').replace(/^\uFEFF/, ''));
-  const fallback = new RegExp('^' + config.rewrites[0].source + '$');
+  const fallback = {test:path=>config.rewrites.some(rule=>new RegExp('^'+rule.source+'$').test(path))};
   for (const size of [16, 32, 180]) {
     const path = `/favicon-${size}.png`;
     const png = fs.readFileSync('public' + path);
@@ -32,7 +32,8 @@ test('public page queries work and private reads and staff writes are rejected',
   const elections = await district.entities.Document.filter({ $or: [{ category: 'election' }, { title: 'Notice of Deadline - 2026 Directors Election' }], archived: { $ne: true } }, '-date', 100);
   assert.equal(elections.length, 11);
   const future = await district.entities.Meeting.filter({ status: 'scheduled', date: { $gte: '2026-10-10' } }, 'date', 1);
-  assert.equal(future.length, 0);
+  assert.equal(future.length, 1);
+  assert.equal(future[0].date, '2026-10-13');
   await assert.rejects(district.entities.WebsiteDraft.list(), { status: 403 });
   await assert.rejects(district.entities.Document.create({ title: 'Unauthorized' }), { status: 503 });
   await assert.rejects(district.auth.me(), { status: 401 });
@@ -63,15 +64,15 @@ test('every original asset and all five supplied PDFs are preserved', () => {
 });
 
 test('public calendar and document links retain relationships and exclude private records', () => {
-  assert.equal(data.Meeting.length, 26);
-  assert.equal(new Set(data.Meeting.map(row => row.id)).size, 26);
+  assert.equal(data.Meeting.length, 27);
+  assert.equal(new Set(data.Meeting.map(row => row.id)).size, 27);
   assert.equal(data.WebsiteDraft, undefined);
   assert.equal(data.ContentChange, undefined);
   assert.ok(!JSON.stringify(data).includes('sentinelstechnologygroup@gmail.com'));
   const seeds = STORMWATER_DOCUMENTS.filter(seed => !data.Document.some(row => row.seed_key === seed.id || row.file_url === seed.file_url));
   const documents = [...data.Document, ...seeds];
-  assert.equal(documents.length, 61);
-  assert.equal(new Set(documents.map(row => row.file_url)).size, 61);
+  assert.equal(documents.length, 62);
+  assert.equal(new Set(documents.map(row => row.file_url)).size, 62);
   for (const row of documents) {
     assert.ok(!row.archived && !row.is_sample);
     assert.ok(row.file_url.startsWith('/'));

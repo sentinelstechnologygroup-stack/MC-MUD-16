@@ -20,7 +20,7 @@ export default function DocumentList({ documents, loading }) {
                 href={migratedAsset(d.file_url)}
                 target="_blank"
                 rel="noreferrer"
-                className="font-medium text-foreground hover:text-[#0789a3] transition-colors block"
+                className="font-medium text-foreground hover:text-[#0c617b] transition-colors block"
               >
                 {d.title}
               </a>
@@ -39,7 +39,7 @@ export default function DocumentList({ documents, loading }) {
             target="_blank"
             rel="noreferrer"
             aria-label={"Open " + d.title + " (PDF, opens in a new tab)"}
-            className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#0789a3] hover:text-[#0c617b] shrink-0 transition-colors"
+            className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#0c617b] hover:text-[#0c617b] shrink-0 transition-colors"
           >
             <Download className="w-4 h-4" /> PDF
           </a>

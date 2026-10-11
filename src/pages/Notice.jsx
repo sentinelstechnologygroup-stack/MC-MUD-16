@@ -23,12 +23,12 @@ export default function Notice() {
 
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.4fr] gap-10">
         <div>
-          <h3 className="font-heading text-2xl text-[#143c58] mb-4">
+          <h2 className="font-heading text-2xl text-[#143c58] mb-4">
             Official Notices
-          </h3>
+          </h2>
           <div className="rounded-[4px] border border-[#d5e3e5] bg-[#edf4f5] p-6">
             <div className="flex items-start gap-3">
-              <AlertTriangle className="w-6 h-6 text-[#0789a3] shrink-0 mt-0.5" />
+              <AlertTriangle className="w-6 h-6 text-[#0c617b] shrink-0 mt-0.5" />
               <div>
                 <p className="font-heading text-lg text-[#173e59]">
                   Extreme Weather Emergencies
@@ -59,7 +59,7 @@ export default function Notice() {
                     href={migratedAsset(n.file_url)}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#0789a3] hover:text-[#0c617b] shrink-0"
+                    className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#0c617b] hover:text-[#0c617b] shrink-0"
                   >
                     <Download className="w-4 h-4" /> PDF
                   </a>
@@ -70,9 +70,9 @@ export default function Notice() {
         </div>
 
         <div>
-          <h3 className="font-heading text-2xl text-[#143c58] mb-4">
+          <h2 className="font-heading text-2xl text-[#143c58] mb-4">
             Water Conservation Tips for Residents
-          </h3>
+          </h2>
           <ManagedSections contentKey="conservation" bullets/>
         </div>
       </div>

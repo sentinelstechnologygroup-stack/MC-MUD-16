@@ -20,6 +20,7 @@ import Accessibility from '@/pages/Accessibility';
 import PrivacyNotice from '@/pages/PrivacyNotice';
 import TermsOfUse from '@/pages/TermsOfUse';
 import { CookieConsentProvider } from '@/components/CookieConsent';
+import PageMetadata from '@/components/PageMetadata';
 
 const AuthenticatedApp = () => {
   const { isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
@@ -74,6 +75,7 @@ function App() {
       <QueryClientProvider client={queryClientInstance}>
         <Router>
           <CookieConsentProvider>
+          <PageMetadata/>
           <ScrollToTop />
           <AuthenticatedApp />
           </CookieConsentProvider>

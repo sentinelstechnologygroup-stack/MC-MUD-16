@@ -36,14 +36,14 @@ export default function DistrictInformation() {
     <div className="max-w-7xl mx-auto px-5 lg:px-12 pt-16 pb-20">
       <SectionHead level={1} title="District Information" />
 
-      <h3 className="font-heading text-2xl text-[#143c58] mb-5">Board of Directors</h3>
+      <h2 className="font-heading text-2xl text-[#143c58] mb-5">Board of Directors</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-14">
         {members.map((m,i) => (
           <div
             key={m.id||i}
             className="border border-[#d4e1e4] bg-white rounded-[4px] p-6 shadow-[0_5px_18px_rgba(20,59,82,0.055)]"
           >
-            <p className="text-xs font-semibold tracking-wider text-[#0789a3] uppercase">
+            <p className="text-xs font-semibold tracking-wider text-[#0c617b] uppercase">
               {m.role}
             </p>
             <p className="font-heading text-xl text-[#173e59] mt-2">
@@ -59,19 +59,19 @@ export default function DistrictInformation() {
       </div>
 
       <div className="mb-10"><DistrictContacts/></div>
-      <h3 className="font-heading text-2xl text-[#143c58] mb-2">Budget Information</h3>
+      <h2 className="font-heading text-2xl text-[#143c58] mb-2">Budget Information</h2>
       <DocumentList documents={budgets} loading={loading} />
       <p className="mt-6 p-6 bg-[#edf4f5] whitespace-pre-line text-sm">{budgetSummary.body}</p>
 
-      <h3 className="font-heading text-2xl text-[#143c58] mt-14 mb-2">
+      <h2 className="font-heading text-2xl text-[#143c58] mt-14 mb-2">
         Financial Information (Annual Audit)
-      </h3>
+      </h2>
       <DocumentList documents={reports} loading={loading} />
 
-      <h3 className="font-heading text-2xl text-[#143c58] mt-14 mb-2">Notice of Tax Hearing</h3>
+      <h2 className="font-heading text-2xl text-[#143c58] mt-14 mb-2">Notice of Tax Hearing</h2>
       <DocumentList documents={taxHearings} loading={loading} />
 
-      <h3 className="font-heading text-2xl text-[#143c58] mt-14 mb-5">Tax Information</h3>
+      <h2 className="font-heading text-2xl text-[#143c58] mt-14 mb-5">Tax Information</h2>
       <div className="mb-6"><TaxUpdate/></div>
       <div className="overflow-x-auto">
         <table className="w-full text-sm">

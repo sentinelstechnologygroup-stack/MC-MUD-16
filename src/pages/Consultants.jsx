@@ -35,7 +35,7 @@ export default function Consultants() {
             key={c.id||i}
             className="border border-[#d4e1e4] bg-white rounded-[4px] p-6 shadow-[0_5px_18px_rgba(20,59,82,0.055)] flex flex-col"
           >
-            <p className="text-xs font-semibold tracking-wider text-[#0789a3] uppercase">
+            <p className="text-xs font-semibold tracking-wider text-[#0c617b] uppercase">
               {c.role}
             </p>
             <p className="font-heading text-xl text-[#173e59] mt-2">{c.company}</p>
@@ -53,7 +53,7 @@ export default function Consultants() {
               {c.phone && (
                 <p className="flex items-center gap-2">
                   <Phone className="w-4 h-4 shrink-0" />
-                  <a href={`tel:${c.phone.replace(/[^0-9]/g, "")}`} className="hover:text-[#0789a3]">
+                  <a href={`tel:${c.phone.replace(/[^0-9]/g, "")}`} className="hover:text-[#0c617b]">
                     {c.phone}
                   </a>
                 </p>
@@ -63,7 +63,7 @@ export default function Consultants() {
                   <Mail className="w-4 h-4 shrink-0" />
                   <a
                     href={`mailto:${c.email}`}
-                    className="hover:text-[#0789a3] break-all"
+                    className="hover:text-[#0c617b] break-all"
                   >
                     {c.email}
                   </a>
@@ -76,7 +76,7 @@ export default function Consultants() {
                     href={c.website}
                     target="_blank"
                     rel="noreferrer"
-                    className="hover:text-[#0789a3] break-all"
+                    className="hover:text-[#0c617b] break-all"
                   >
                     Website
                   </a>

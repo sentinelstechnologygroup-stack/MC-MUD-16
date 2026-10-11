@@ -53,7 +53,7 @@ export default function SiteLayout() {
                   `text-[13px] font-semibold whitespace-nowrap transition-colors duration-200 ${
                     isActive
                       ? "text-[#0c617b]"
-                      : "text-[#39566a] hover:text-[#0789a3]"
+                      : "text-[#39566a] hover:text-[#0c617b]"
                   } focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-[#39a8ba] focus-visible:outline-offset-[4px]`
                 }
               >

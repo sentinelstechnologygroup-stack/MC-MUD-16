@@ -62,45 +62,45 @@ export default function Meetings() {
     return eachDayOfInterval({ start: gs, end: ge });
   }, [cursor]);
 
-  const today = new Date();
+  const today = format(new Date(), 'yyyy-MM-dd');
   const upcoming = displayedMeetings
-    .filter((m) => parseISO(m.date) >= today)
+    .filter((m) => m.date >= today)
     .sort((a, b) => a.date.localeCompare(b.date));
   const past = displayedMeetings
-    .filter((m) => parseISO(m.date) < today)
+    .filter((m) => m.date < today)
     .sort((a, b) => b.date.localeCompare(a.date));
 
   return (
     <div className="max-w-7xl mx-auto px-5 lg:px-12 pt-16 pb-20">
       <SectionHead level={1} title="Meetings" /><p className="text-[#39566a] mb-6">{schedule.description}</p>
       <p className="text-muted-foreground mb-8 max-w-2xl">
-        The Board of Directors meets on the second Tuesday of each month at 7:00 p.m. at
-        25374 Dogwood Ln, Splendora, TX 77372. All meetings are open to the public.
+        Each posted agenda provides the meeting location, time and attendance instructions.
+        Confirm those details before attending; locations and arrangements may change.
       </p>
 
       <div className="grid grid-cols-1 lg:grid-cols-[1.3fr_1fr] gap-8">
         <div className="border border-[#d4e1e4] bg-white rounded-[4px] p-5 shadow-[0_5px_18px_rgba(20,59,82,0.055)]">
           <div className="flex items-center justify-between mb-4">
-            <h3 className="font-heading text-2xl text-[#143c58]">
+            <h2 className="font-heading text-2xl text-[#143c58]">
               {format(cursor, "MMMM yyyy")}
-            </h3>
+            </h2>
             <div className="flex gap-2">
               <button
                 onClick={() => setCursor(addMonths(cursor, -1))}
-                className="w-9 h-9 rounded-[4px] border border-[#d4e1e4] text-[#39566a] hover:bg-[#eef9fa] hover:text-[#0789a3] flex items-center justify-center transition-colors"
+                className="w-9 h-9 rounded-[4px] border border-[#d4e1e4] text-[#39566a] hover:bg-[#eef9fa] hover:text-[#0c617b] flex items-center justify-center transition-colors"
                 aria-label="Previous month"
               >
                 <ChevronLeft className="w-4 h-4" />
               </button>
               <button
                 onClick={() => setCursor(new Date())}
-                className="px-3 h-9 rounded-[4px] border border-[#d4e1e4] text-[#39566a] hover:bg-[#eef9fa] hover:text-[#0789a3] text-sm font-semibold transition-colors"
+                className="px-3 h-9 rounded-[4px] border border-[#d4e1e4] text-[#39566a] hover:bg-[#eef9fa] hover:text-[#0c617b] text-sm font-semibold transition-colors"
               >
                 Today
               </button>
               <button
                 onClick={() => setCursor(addMonths(cursor, 1))}
-                className="w-9 h-9 rounded-[4px] border border-[#d4e1e4] text-[#39566a] hover:bg-[#eef9fa] hover:text-[#0789a3] flex items-center justify-center transition-colors"
+                className="w-9 h-9 rounded-[4px] border border-[#d4e1e4] text-[#39566a] hover:bg-[#eef9fa] hover:text-[#0c617b] flex items-center justify-center transition-colors"
                 aria-label="Next month"
               >
                 <ChevronRight className="w-4 h-4" />
@@ -122,7 +122,7 @@ export default function Meetings() {
               const key = format(day, "yyyy-MM-dd");
               const dayMeetings = byDay[key] || [];
               const inMonth = isSameMonth(day, cursor);
-              const isToday = isSameDay(day, today);
+              const isToday = isSameDay(day, new Date());
               return (
                 <div
                   key={key}
@@ -134,7 +134,7 @@ export default function Meetings() {
                 >
                   <span
                     className={`text-xs font-semibold ${
-                      isToday ? "text-[#0789a3]" : inMonth ? "text-foreground" : ""
+                      isToday ? "text-[#0c617b]" : inMonth ? "text-foreground" : ""
                     }`}
                   >
                     {format(day, "d")}
@@ -170,7 +170,7 @@ export default function Meetings() {
         </div>
 
         <div>
-          <h3 className="font-heading text-2xl text-[#143c58] mb-4">Upcoming</h3>
+          <h2 className="font-heading text-2xl text-[#143c58] mb-4">Upcoming</h2>
           {loading && <p className="text-muted-foreground">Loading…</p>}
           {!loading && upcoming.length === 0 && (
             <p className="text-muted-foreground text-sm">No upcoming meetings scheduled.</p>
@@ -181,7 +181,7 @@ export default function Meetings() {
             ))}
           </div>
 
-          <h3 className="font-heading text-2xl text-[#143c58] mt-8 mb-4">Past Meetings</h3>
+          <h2 className="font-heading text-2xl text-[#143c58] mt-8 mb-4">Past Meetings</h2>
           <div className="space-y-3 max-h-[420px] overflow-y-auto pr-1">
             {past.map((m) => (
               <MeetingCard key={m.id} m={m} records={records} past />
@@ -224,7 +224,7 @@ function MeetingCard({ m, past = false, records=[] }) {
             href={migratedAsset(m.agenda_url)}
             target="_blank"
             rel="noreferrer"
-            className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#0789a3] hover:text-[#0c617b] shrink-0"
+            className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#0c617b] hover:text-[#0c617b] shrink-0"
           >
             <FileText className="w-4 h-4" /> Agenda
           </a>

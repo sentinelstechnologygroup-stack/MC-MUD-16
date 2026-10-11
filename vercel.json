@@ -5,8 +5,48 @@
   "outputDirectory": "dist",
   "rewrites": [
     {
-      "source": "/((?!assets/|migrated/|stormwater/|favicon[^/]*[.](?:svg|png|ico)$).*)",
-      "destination": "/index.html"
+      "source": "/district-information",
+      "destination": "/__pages/district-information.html"
+    },
+    {
+      "source": "/notice",
+      "destination": "/__pages/notice.html"
+    },
+    {
+      "source": "/important-documents",
+      "destination": "/__pages/important-documents.html"
+    },
+    {
+      "source": "/elections",
+      "destination": "/__pages/elections.html"
+    },
+    {
+      "source": "/meetings",
+      "destination": "/__pages/meetings.html"
+    },
+    {
+      "source": "/consultants",
+      "destination": "/__pages/consultants.html"
+    },
+    {
+      "source": "/stormwater-management",
+      "destination": "/__pages/stormwater-management.html"
+    },
+    {
+      "source": "/accessibility",
+      "destination": "/__pages/accessibility.html"
+    },
+    {
+      "source": "/privacy-notice",
+      "destination": "/__pages/privacy-notice.html"
+    },
+    {
+      "source": "/terms-of-use",
+      "destination": "/__pages/terms-of-use.html"
+    },
+    {
+      "source": "/staff-portal",
+      "destination": "/__pages/staff-portal.html"
     }
   ],
   "headers": [
@@ -26,7 +66,15 @@
           "value": "SAMEORIGIN"
         }
       ]
+    },
+    {
+      "source": "/staff-portal",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
     }
   ]
 }
-

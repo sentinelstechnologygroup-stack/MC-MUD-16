@@ -79,3 +79,11 @@
     transition-duration: 0.01ms !important;
   }
 }
+
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
+  outline: 3px solid #0789a3;
+  outline-offset: 4px;
+}
+footer a:focus-visible, footer button:focus-visible {
+  outline-color: #71d1d9;
+}

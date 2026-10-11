@@ -95,7 +95,7 @@ export default function Home() {
             </p>
             <Link
               to="/district-information"
-              className="mt-6 inline-flex items-center text-[#0789a3] font-semibold hover:text-[#0c617b] transition-colors"
+              className="mt-6 inline-flex items-center text-[#0c617b] font-semibold hover:text-[#0c617b] transition-colors"
             >
               Learn more <ArrowRight className="ml-2 w-4 h-4" />
             </Link>
@@ -129,7 +129,7 @@ export default function Home() {
             </p>
             {nextMeeting ? (
               <div className="mt-5 p-5 bg-white rounded-[4px] border border-[#d5e3e5]">
-                <p className="text-xs font-semibold tracking-wider text-[#0789a3] uppercase">
+                <p className="text-xs font-semibold tracking-wider text-[#0c617b] uppercase">
                   Next Meeting
                 </p>
                 <p className="font-heading text-xl text-[#143c58] mt-1">{nextMeeting.title}</p>
@@ -144,7 +144,7 @@ export default function Home() {
                     href={migratedAsset(nextMeeting.agenda_url)}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex items-center mt-3 text-[#0789a3] font-semibold hover:text-[#0c617b] transition-colors"
+                    className="inline-flex items-center mt-3 text-[#0c617b] font-semibold hover:text-[#0c617b] transition-colors"
                   >
                     View Agenda <ArrowRight className="ml-2 w-4 h-4" />
                   </a>
@@ -155,7 +155,7 @@ export default function Home() {
             )}
             <Link
               to="/meetings"
-              className="mt-6 inline-flex items-center text-[#0789a3] font-semibold hover:text-[#0c617b] transition-colors"
+              className="mt-6 inline-flex items-center text-[#0c617b] font-semibold hover:text-[#0c617b] transition-colors"
             >
               Full meeting calendar <ArrowRight className="ml-2 w-4 h-4" />
             </Link>
