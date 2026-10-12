@@ -1,6 +1,6 @@
 # MCMUD 16 Public Website Launch Audit
 
-Reviewed October 10, 2026. The redesigned public website can run independently of the unfinished staff portal. Do not move DNS until the district approves the public information and the cutover checks below are completed.
+Reviewed October 10, 2026. Update October 12: the website owner supplied approved district confirmation that $0.988 per $100 is the effective 2026 tax rate. The public notice is updated; supporting meeting minutes remain forthcoming. An exact effective date and component rates have not been supplied. The redesigned public website can run independently of the unfinished staff portal. Do not move DNS until the district approves the public information and the cutover checks below are completed.
 
 ## Findings and fixes
 
@@ -28,7 +28,7 @@ This review includes browser/structure checks and a PDF text/tag inventory. It d
 | Needed | Who should confirm | Decision needed |
 | --- | --- | --- |
 | Current board roster and officer organization | Secretary and district attorney | Approve the supplied five names/titles, spelling of Tomas Enix, terms, approved public contacts and supporting appointment/election and officer records. |
-| Adopted tax-rate instrument | Attorney and tax assessor-collector | Provide the signed adopted order, tax year, component rates and effective date supporting $0.988 per $100. The October 13 agenda proposes a tax hearing/adoption; an agenda does not establish adoption. Identify separate utility Rate Order changes. |
+| Adopted tax-rate instrument | Attorney and tax assessor-collector | The effective 2026 total of $0.988 per $100 is now confirmed by the website owner. Provide the forthcoming supporting meeting minutes and signed rate instrument, component rates and exact effective date. The October 13 agenda proposes a tax hearing/adoption; an agenda does not establish adoption. Identify separate utility Rate Order changes. |
 | Regular meeting schedule and attendance | Secretary | Confirm the recurring schedule and current location. Resolve the existing homepage's “no teleconference” wording versus Zoom instructions in the posted October 13 agenda. Supply any newer notices and approved minutes before launch. |
 | Public notices and policies | District attorney or authorized district approver | Approve ADA/accessibility, privacy and terms wording and effective dates. Confirm accessibility assistance/grievance procedure, records request contact and additional required district postings. |
 | Stormwater publication and reporting | Engineer and authorized district approver | Confirm current SWMP/MS4 documents and map approval, designated reporting contact and after-hours procedure. The general contact is not represented as a spill hotline. |
