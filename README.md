@@ -34,7 +34,7 @@ The original GoDaddy contact form has optional Name, required Email and optional
 
 The homepage contact form submits to the user-provided Formspree endpoint `https://formspree.io/f/xeaelpak`. Name is optional; email and message are required. It includes a honeypot, duplicate-submit protection, a 20-second timeout and accessible status messages. Success is displayed only after Formspree explicitly accepts the request. Email/telephone links remain available. Formspree dashboard settings control recipients, spam filtering and retention; inbox delivery and those settings must be confirmed by the owner. No secret key is needed in the browser. Preserve existing contact records according to district instructions.
 
-The supplied $0.988 figure remains pending supporting paperwork. Board terms and official coordinator/reporting contacts remain unspecified until confirmed. ADA, privacy and terms pages remain draft notices, not adopted district policies or compliance certification.
+The district confirmed the effective 2026 tax rate of $0.988 per $100 on October 12, 2026 through the website owner. Supporting meeting minutes are forthcoming; no exact effective date or component rates have been supplied. Board terms and official coordinator/reporting contacts remain unspecified until confirmed. ADA, privacy and terms pages remain draft notices, not adopted district policies or compliance certification.
 
 See [official records request](migration/MCMUD16%20Official%20Records%20Request.md) and [admin model handoff](migration/Admin%20Portal%20Model.md).
 

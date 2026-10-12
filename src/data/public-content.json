@@ -1002,7 +1002,7 @@
   "WebsiteContent": [
     {
       "key": "tax_update",
-      "value": "{\"total\":\"0.988\",\"year\":\"\",\"effective_date\":\"\",\"status\":\"pending\",\"source_document\":\"\",\"note\":\"Rate supplied for the website update. Tax year, effective date and adopted order are pending confirmation.\"}",
+      "value": "{\"total\":\"0.988\",\"year\":\"2026\",\"effective_date\":\"\",\"status\":\"confirmed\",\"source_document\":\"\",\"note\":\"The district has confirmed the effective 2026 tax rate. Supporting meeting minutes will be posted when provided.\"}",
       "summary": "Tax rate update",
       "id": "6aca63f98f36e5a0462128c9",
       "created_by_id": "6ac5521c49be3e071a6fbb1e"

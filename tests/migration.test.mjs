@@ -39,10 +39,12 @@ test('public page queries work and private reads and staff writes are rejected',
   await assert.rejects(district.auth.me(), { status: 401 });
 });
 
-test('supplied district roster and pending tax status survive migration', () => {
+test('supplied district roster and confirmed 2026 tax status survive migration', () => {
   assert.deepEqual(content('board_members').map(row => row.name), ['Fred Paris', 'Tomas Enix', 'Dustin Van Dyne', 'Kathy McDonald', 'Jim McNamara']);
   assert.equal(content('tax_update').total, '0.988');
-  assert.equal(content('tax_update').status, 'pending');
+  assert.equal(content('tax_update').status, 'confirmed');
+  assert.equal(content('tax_update').year, '2026');
+  assert.equal(content('tax_update').source_document, '');
   assert.equal(content('meeting_schedule').show_recurring, false);
   for (const key of ['accessibility', 'privacy', 'terms']) assert.equal(content(key).draft, true);
 });

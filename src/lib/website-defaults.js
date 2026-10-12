@@ -64,12 +64,12 @@ export const WEBSITE_DEFAULTS = {
   },
   "tax_update": {
     "total": "0.988",
-    "year": "",
+    "year": "2026",
     "effective_date": "",
-    "status": "pending",
+    "status": "confirmed",
     "source_document": "",
-    "note": "Rate supplied for the website update. Tax year, effective date and adopted order are pending confirmation."
-  },
+    "note": "The district has confirmed the effective 2026 tax rate. Supporting meeting minutes will be posted when provided."
+},
   "meeting_schedule": {
     "description": "Refer to each posted meeting notice for the confirmed date, time and location.",
     "show_recurring": false
