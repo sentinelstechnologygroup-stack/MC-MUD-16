@@ -49,7 +49,7 @@ export default function DistrictInformation() {
             <p className="font-heading text-xl text-[#173e59] mt-2">
               {m.vacant ? "Vacant" : m.name}
             </p>
-            {m.term_expires&&<p className="text-sm mt-2">Term ends: {m.term_expires}</p>}
+            <p className="text-sm mt-2">{m.term_expires ? `Term ends: ${m.term_expires}` : "Term end date: Pending district confirmation"}</p>
             {m.public_contact&&<p className="text-sm mt-2">{m.public_contact}</p>}
             {m.service_basis&&m.service_basis!=="Not specified"&&<p className="text-sm mt-2">{m.service_basis}{m.service_start?" · Service began "+m.service_start:""}</p>}
             {m.source_document&&<a className="text-sm underline text-[#0c617b] mt-2 block" href={m.source_document} target="_blank" rel="noreferrer">Supporting official record (PDF)</a>}

@@ -3,7 +3,7 @@ export const WEBSITE_DEFAULTS = {
     {
       "name": "Fred Paris",
       "role": "President",
-      "term_expires": "",
+      "term_expires": "May 2028",
       "public_contact": "",
       "vacant": false,
       "service_basis": "Not specified",
@@ -13,7 +13,7 @@ export const WEBSITE_DEFAULTS = {
     {
       "name": "Tomas Enix",
       "role": "Vice-President",
-      "term_expires": "",
+      "term_expires": "May 2028",
       "public_contact": "",
       "vacant": false,
       "service_basis": "Not specified",
