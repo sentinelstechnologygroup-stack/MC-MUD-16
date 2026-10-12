@@ -8,6 +8,7 @@ import UserNotRegisteredError from '@/components/UserNotRegisteredError';
 import ScrollToTop from './components/ScrollToTop';
 import SiteLayout from '@/components/SiteLayout';
 import Home from '@/pages/Home';
+import Contact from '@/pages/Contact';
 import DistrictInformation from '@/pages/DistrictInformation';
 import Notice from '@/pages/Notice';
 import ImportantDocuments from '@/pages/ImportantDocuments';
@@ -50,6 +51,7 @@ const AuthenticatedApp = () => {
     <Routes>
       <Route element={<SiteLayout />}>
         <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/district-information" element={<DistrictInformation />} />
         <Route path="/notice" element={<Notice />} />
         <Route path="/important-documents" element={<ImportantDocuments />} />

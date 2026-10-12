@@ -1,5 +1,6 @@
 export const SITE_ORIGIN = 'https://mcmud16.com';
 export const PAGE_METADATA = {
+  '/contact':['Contact Us','Contact Montgomery County MUD 16 by website form, email or telephone.'],
   '/':['Montgomery County MUD 16','District information, public meetings, documents, elections and stormwater resources for Montgomery County Municipal Utility District No. 16.'],
   '/district-information':['District Information','Board members, public contacts, budgets, annual financial reports and historical tax information for Montgomery County MUD 16.'],
   '/notice':['Public Notices','Official district notices and practical water conservation guidance for Montgomery County MUD 16 residents.'],

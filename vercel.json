@@ -5,6 +5,10 @@
   "outputDirectory": "dist",
   "rewrites": [
     {
+      "source": "/contact",
+      "destination": "/__pages/contact.html"
+    },
+    {
       "source": "/district-information",
       "destination": "/__pages/district-information.html"
     },
