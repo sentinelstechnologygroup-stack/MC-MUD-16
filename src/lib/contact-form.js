@@ -1,4 +1,4 @@
-export const CONTACT_ENDPOINT = "https://formspree.io/f/xeaelpak";
+export const CONTACT_ENDPOINT = "https://formspree.io/f/xeaelpdk";
 
 export async function submitContact(formData, fetcher = fetch) {
   const response = await fetcher(CONTACT_ENDPOINT, {
